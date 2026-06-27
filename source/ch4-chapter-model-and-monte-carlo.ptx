@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch4-chapter-model-and-monte-carlo" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Monte Carlo Simulation</title>
+
+  <introduction>
+    <p> This chapter introduces students to the idea of building and simulating models in order to perform
+        simulation-based inference. This chapter will also cover very basic probability ideas and will begin 
+        to teach students how to summarize and describe distributions of quantitative data. There will also be an 
+        introduction to sampling distributions, sampling variability, and standard error.  </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="section-ch4-simulation-intro.ptx" />
+  <xi:include href="section-ch4-summarize-sim.ptx" />
+  <xi:include href="section-ch4-example-sim.ptx" />
+
+</chapter>

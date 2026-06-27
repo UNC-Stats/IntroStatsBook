@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch16-chapter-theory-multivar" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Classical Multivariable Inference Methods</title>
+
+  <introduction>
+    <p> [This may become an appendix.] This chapter revisits the idea of the normal and t-distributions 
+      and how they can be used to theoretically model sampling distributions for the purpose of performing 
+      inference. The focus is on hypothesis testing and confidence intervals for comparing two means, 
+      comparing two proportions, and the regression slope. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="section-ch16-CLT-two-prop.ptx" />
+  <xi:include href="section-ch16-CLT-two-means.ptx" />
+  <xi:include href="section-ch16-CLT-regression-slope.ptx" />
+
+</chapter>

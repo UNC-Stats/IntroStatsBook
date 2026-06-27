@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch12-chapter-ht-compare-means" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Comparing Groups - Quantitative Response</title>
+
+  <introduction>
+    <p> This chapter begins with a lesson on summarizing data when you have one categorical and one quantitative variable. 
+      Then students learn how to perform a simulation-based hypothesis tests/randomization tests for comparing population means. 
+      We begin with a comparison of two groups and extend this to any number of groups. 
+      Students will learn when a cause-and-effect conclusion can be drawn and the importance of study design.
+      We also look at the special case of paired data. 
+    </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="section-ch12-summarize-quant-and-cat.ptx" />
+  <xi:include href="section-ch12-ht-randomization-2m.ptx" />
+  <xi:include href="section-ch12-anova.ptx" />
+  <xi:include href="section-ch12-study-design.ptx" />
+  <xi:include href="section-ch12-paired-data.ptx" />
+
+</chapter>

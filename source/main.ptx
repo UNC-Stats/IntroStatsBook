@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <book xml:id="my-great-book">
+    <title>Introduction to Statistical Analysis</title>
+    <subtitle>An Interactive Resource for Learning Statistics</subtitle>
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+
+    <!-- Include chapters -->
+    <xi:include href="./ch1-chapter-intro.ptx" />
+    <xi:include href="./ch2-chapter-first-full-investigation.ptx" />
+    <xi:include href="./ch3-chapter-first-eda.ptx" />
+    <xi:include href="./ch4-chapter-model-and-monte-carlo.ptx" />
+    <xi:include href="./ch5-chapter-ht-1p-model-and-sim.ptx" />
+    <xi:include href="./ch6-chapter-ht-1p-evaluate.ptx" />
+    <xi:include href="./ch7-chapter-generalize-conclusions.ptx" />
+    <xi:include href="./ch8-chapter-bootstrap.ptx" />
+    <xi:include href="./ch9-chapter-ci-1m1p.ptx" />
+    <xi:include href="./ch10-chapter-ht-1m.ptx" />
+    <xi:include href="./ch11-chapter-theory-1m1p.ptx" />
+    <xi:include href="./ch12-chapter-ht-compare-means.ptx" />
+    <xi:include href="./ch13-chapter-ht-compare-proportions.ptx" />
+    <xi:include href="./ch14-chapter-ci-differences.ptx" />
+    <xi:include href="./ch15-chapter-regression.ptx" />
+    <xi:include href="./ch16-chapter-theory-multivariable.ptx" />
+    <xi:include href="./ch17-chapter-probability.ptx" />
+
+
+    <!-- Include backmatter -->
+    <xi:include href="./backmatter.ptx" />
+
+  </book>
+</pretext>

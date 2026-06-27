@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch2-chapter-first-full-investigation" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Statistical Investigation Process</title>
+  
+
+  <introduction>
+    <p> This chapter will introduce students to the big ideas that they will learn in this course through the examination of a full
+      statistical investigation. There will be a focus on introducing all of the main vocabulary that will be used. The chapter will 
+      end with a discussion of what makes a "good" research question.  </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="section-ch2-stat-invest-process.ptx" />
+  <xi:include href="section-ch2-big-ideas-vocab.ptx" />
+  <xi:include href="section-ch2-RQ.ptx" />
+
+</chapter>

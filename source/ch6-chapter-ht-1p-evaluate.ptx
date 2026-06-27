@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch6-chapter-ht-1p-evaluate" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Evaluating Hypotheses</title>
+
+  <introduction>
+    <p> This chapter covers the evaluate step of the model-simulate-evaluate process used
+        for simulation-based hypothesis testing. Students will learn about p-values and the standardized value of 
+        the statistic/Z-score/test statistic. The chapter ends with a discussion on significance level and decision errors.
+      </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="section-ch6-quantify-evidence.ptx" />
+  <xi:include href="section-ch6-decision-errors.ptx" />
+
+
+</chapter>

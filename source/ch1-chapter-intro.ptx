@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch1-chapter-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to the Course</title>
+
+  <introduction>
+    <p> Welcome to your introductory statistics course! Here you will find tips on how to do well in this course. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="section-ch1-greetings.ptx" />
+  <xi:include href="section-ch1-learning-stats.ptx" />
+  <xi:include href="section-ch1-tips.ptx" />
+
+</chapter>

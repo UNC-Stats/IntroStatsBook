@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch5-chapter-ht-1p-model-and-sim" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Statistical Inference</title>
+
+  <introduction>
+    <p> This chapter covers the model and simulate steps of the model-simulate-evaluate process used
+        for simulation-based hypothesis testing. Here we focus specifically on the case when we have 
+        one categorical variable, and we begin by briefly talking about how to summarize categorical 
+        data. The chapter covers the idea of inference, teaches students how to set up hypotheses (in 
+        general), and ends with informally/visually making conclusions for the hypothesis test.
+    </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="section-ch5-summarize-one-cat.ptx" />
+  <xi:include href="section-ch5-inference-intro-HT.ptx" />
+  <xi:include href="section-ch5-null-model-sim.ptx" />
+ 
+
+</chapter>

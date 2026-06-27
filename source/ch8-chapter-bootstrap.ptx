@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch8-chapter-bootstrap" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Bootstrap</title>
+
+  <introduction>
+    <p> Students have been learning how important it is to obtain a measure sampling variability when making decisions about hypothesis tests. 
+      So far we have simulated statistics for hypothetical situations only (null hypothesis) using cards, coin flips, spinners, etc. 
+      This chapter introduces bootstrapping for the estimation sampling variability. Students will learn about sampling distributions and 
+      standard error and how to simulate the random sampling process when we only have access to sample data and not the full population.
+      Students will also learn about parameter estimation. 
+    </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="section-ch8-sampling-dist.ptx" />
+  <xi:include href="section-ch8-bootstrap.ptx" />
+  <xi:include href="section-ch8-estimation-intro.ptx" />
+
+</chapter>
