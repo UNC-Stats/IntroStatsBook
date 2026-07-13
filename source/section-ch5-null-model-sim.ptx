@@ -3,30 +3,93 @@
 <section xml:id="section-ch5-null-model-sim" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Model and Simulate Null Hypotheses</title>
 
-  <introduction>
-    <p> 
-      Text of Intro. 
+<introduction>
+    <p>
+      One thing that makes statistical inference difficult, especially hypothesis testing, is that it violates our intuitions about how hypothesis testing should work. Let's look at an example to see this. 
     </p>
+
+    <example>
+      <title>Police Body Cameras</title>
+      <p>
+        There is great interest in the use of body-worn cameras by police officers, which are thought to reduce the use of force and improve officer behavior. However, in order to establish this we need experimental evidence, and it has become increasingly common for governments to use randomized controlled trials to test such ideas. A randomized controlled trial of the effectiveness of body-worn cameras was performed by the Washington, DC government and DC Metropolitan Police Department in 2015/2016. Officers were randomly assigned to wear a body-worn camera or not, and their behavior was then tracked over time to determine whether the cameras resulted in less use of force and fewer civilian complaints about officer behavior.
+      </p>
+
+      <p>
+         Let's say we want to specifically test the hypothesis of whether the use of force is <em>decreased</em> by the wearing of cameras. The randomized controlled trial provides us with the data to test the hypothesis - namely, the rates of use of force by officers assigned to either the camera or control groups. Before we go further, let's ask how you think the statistical analysis might work?
+      </p>
+      
+      <p>
+        You probably said, "the next step is to look at the data and determine whether they provide convincing evidence for or against this hypothesis." It turns out that this is not how null hypothesis testing works! Instead, we first take our hypothesis of interest (i.e. that body-worn cameras reduce use of force), and flip it on its head, creating a null hypothesis. In this case, the null hypothesis would be that cameras do <em>not</em> reduce use of force. Importantly, we then <em>assume that the null hypothesis is true.</em> We then look at the data, and determine how likely the data would be if the null hypothesis really were true. If the the data are sufficiently unlikely under the null hypothesis, then we can reject the null in favor of the alternative hypothesis, which is our hypothesis of interest. If there is not sufficient evidence to reject the null, then we simply conclude that we could not reject it, which is, understandably, not a very satisfying ending to our hypothesis test. Note that We're not concluding that the null hypothesis is true, only that we failed to prove that it wasn't true, which is an important distinction. 
+     </p>
+    </example>
+
+    <p>
+      It helps to think of null hypothesis statistical testing in the context of a criminal trial. The legal principle of "innocent until proven guilty" maps perfectly to statistical decision-making, where the goal is to evaluate if there is enough evidence to reject an initial assumption. We will revisit this analogy later. For now, just keep in mind that understanding some of the concepts will be challenging at first, because they are so counter-intuitive. But stick with it! Ask questions. It's important for you to have a deep understanding of how hypothesis testing works.
+    </p>
+
   </introduction>
 
 
 
-  <!-- Add xml id-->
-  <subsection >
-    <title>Title</title>
+    <subsection xml:id="subsec-hyp-test-process">
+    <title>Evaluating Your Hypotheses</title>
     <p> 
-      Text of SubSection.
+      You created statistical hypotheses that you want to test. The process we will use for evaluating those hypotheses is:
     </p>
+
+    <ol>
+      <li> Create a model that conforms to the null hypothesis. We will call this the "null model."</li>
+
+      <li> Use the selected model to generate many, many sets of data (Monte Carlo simulation). The results you collect and pool together from these simulations will give a picture of the variation you would expect if the null hypothesis is true.</li>
+
+      <li> Evaluate whether the results observed in the actual data (not the simulated data) are compatible or not with the expected results produced from the null model. This acts as evidence against the null hypothesis.</li>
+    </ol>
+
+    <p>
+      To help you remember this process, you can again use the more simplistic mnemonic: Model - Simulate - Evaluate.
+    </p>
+
+    <p>
+      This may sound like a straight-forward process, but in practice it can actually be quite complex, especially as you are reading research articles and trying to interpret the findings. First off, the model that is selected is often not provided, nor described, explicitly within most research articles. It is often left to the reader to figure out what the assumed model was. At first, this may be quite difficult, but like most tasks, as you gain experience in this course and as you read more research, you find that there are a common set of models that are typically used by researchers.
+    </p>
+
   </subsection>
 
 
 
-  <!-- Add xml id-->
-  <subsection >
-    <title>Title</title>
+  <subsection xml:id="subsec-null-model">
+    <title>The Null Model</title>
+    <p> 
+      The model that you use in the Monte Carlo simulation is directly related to the null hypothesis. In our coin flip example, recall that the null hypothesis was:
+    </p>
+
+    <md>
+      <mrow> \amp H_0: \mbox{The proportion of heads when flipping the coin is equal to } 0.50. </mrow>
+      <mrow> \amp OR </mrow>
+      <mrow> \amp H_0: \pi_{Heads}=0.50 </mrow>
+    </md>
+
+    <p> We can easily create a model based on this hypothesis! We need to create a model that flips a fair coin, fair meaning that the probability of heads is 0.50.
+
+      magine you had flipped a coin 100 times and it had produced heads in 64 of those flips. This proportion of .64 (or 64%) heads made you suspicious about whether the coin was fair and you now want to evaluate whether it is fair, or whether it is producing heads too often. To determine whether the coin is fair or not, we will write and evaluate a set of hypotheses about the our coin.
+      
+      We then set the repeat value to 100 to mimic our sample observed data in which we flipped the coin 100 times.
+    </p>
+  </subsection>
+
+
+  
+  <subsection xml:id="subsec-sim-null-model">
+    <title>Simulate the Null Model</title>
     <p> 
       Text of SubSection.
     </p>
+
+    <figure>
+      <caption>Embedding ISI (Rossman/Chance) Applet ~ Testing ~ One Proportion <c>iframe</c></caption>
+      <interactive xml:id="testing-ISI" iframe="https://www.rossmanchance.com/applets/2021/oneprop/OneProp.htm" width="100%" aspect="16:9"/>
+   </figure>
+    
   </subsection>
 
 

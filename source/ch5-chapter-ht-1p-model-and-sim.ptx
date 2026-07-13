@@ -4,8 +4,8 @@
   <title>Statistical Inference</title>
 
   <introduction>
-    <p> This chapter covers the model and simulate steps of the model-simulate-evaluate process used
-        for simulation-based hypothesis testing. Here we focus specifically on the case when we have 
+    <p> This chapter covers the model and simulate steps of the model-simulate-evaluate process used in simulation studies when it is applied to
+         simulation-based hypothesis testing. Here we focus specifically on the case when we have 
         one categorical variable, and we begin by briefly talking about how to summarize categorical 
         data. The chapter covers the idea of inference, teaches students how to set up hypotheses (in 
         general), and ends with informally/visually making conclusions for the hypothesis test.
@@ -14,13 +14,15 @@
 
   <objectives>
     <ol>
-    <li>Explore...</li>
+    <li>Summarize categorical data using graphs and statistics.</li>
 
-    <li>Learn...</li>
+    <li>Interpret data summaries in context.</li>
 
-    <li>Understand...</li>
+    <li>Understand the logic and process of statistical hypothesis testing.</li>
 
-    <li>Apply...</li>
+    <li>Create testable statistical hypotheses in words and in mathematical symbols.</li>
+
+    <li>Use modeling and simulation to determine what sort of results would be expected under a specific hypothesis. </li>
   </ol>
   </objectives>
 
