@@ -10,6 +10,18 @@
       end with a discussion of what makes a "good" research question.  </p>
   </introduction>
 
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
   <!-- include sections -->
   <xi:include href="section-ch2-stat-invest-process.ptx" />
   <xi:include href="section-ch2-big-ideas-vocab.ptx" />

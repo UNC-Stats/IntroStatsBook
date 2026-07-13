@@ -9,6 +9,22 @@
       practical importance.</p>
   </introduction>
 
+
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
+
+  
+
   <!-- include sections -->
   <xi:include href="section-ch14-ci-review.ptx" />
   <xi:include href="section-ch14-ci-compare-2mean.ptx" />

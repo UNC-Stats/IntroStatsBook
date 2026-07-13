@@ -3,6 +3,41 @@
 <section xml:id="section-ch14-ci-review" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Bootstrap and Confidence Intervals when Comparing Groups</title>
 
-  <p> Text of section. </p>
+  <introduction>
+    <p> 
+      Text of Intro. 
+    </p>
+  </introduction>
+
+
+
+  <!-- Add xml id-->
+  <subsection >
+    <title>Title</title>
+    <p> 
+      Text of SubSection.
+    </p>
+  </subsection>
+
+
+
+  <!-- Add xml id-->
+  <subsection >
+    <title>Title</title>
+    <p> 
+      Text of SubSection.
+    </p>
+  </subsection>
+
+
+
+  <conclusion>
+    <title>Conclusion</title>
+    <p>
+      Text of Conclusion
+    </p>
+  </conclusion>
+
+
 
 </section>

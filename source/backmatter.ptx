@@ -6,8 +6,11 @@
 <!-- solutions in the next. Then there is an appendix -->
 <!-- with all notation generated, and finally the index. -->
 <backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
+  
   <title>Backmatter</title>
 
+
+  <xi:include href="backmatter-references.ptx" />
   <!-- <solutions divisional="hint"> <title>Selected Hints</title> </solutions> -->
 
   <!-- <solutions divisional="solution"> <title>Selected Solutions</title> </solutions> -->
@@ -19,5 +22,6 @@
   <colophon>
     <p> This book was authored in <pretext />. </p>
   </colophon>
+  
 </backmatter>
 

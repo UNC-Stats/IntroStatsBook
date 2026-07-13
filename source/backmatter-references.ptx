@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<references xml:id="backmatter-references" xmlns:xi="http://www.w3.org/2001/XInclude"> 
+    <title>References</title>  
+
+<!-- Must alphabetize yourself!!!!!!!-->
+
+
+
+    <biblio type="bibtex" xml:id="biblio-mednick-sleepcaff">
+       <author>Mednick, S.,  Cai, D., Kanady, J., and Drummond, S.</author>  
+        <title>Comparing the benefits of Caffeine, Naps and Placebo on Verbal, Motor and Perceptual Memory</title>
+        <journal>Behav Brain Res.</journal>
+        <year>2008</year>
+        <volume>193</volume>
+        <number>1</number>
+        <pages>79-86</pages>
+    </biblio>
+
+    
+    <biblio type="bibtex" xml:id="biblio-weber">
+        <author>Weber, B., John, M.,  Mateas, M., and Jhala, A.</author>
+        <title>Modeling Player Retention in Madden NFL 11</title>
+        <journal>Proceedings of the Twenty-Third Innovative Applications of Artificial Intelligence Conference</journal>
+        <year>2011</year>
+        <volume>25</volume>
+        <number>2</number>
+        <pages>1701-1706</pages>
+        <url href="https://doi.org/10.1609/aaai.v25i2.18864"></url>
+        
+    </biblio>
+
+
+
+
+
+
+
+    <!-- Below here was example practice-->
+
+     <biblio type="raw" xml:id="biblio-kaplan-book">
+        Kaplan, D. 
+        <title>Lesson in Statistical Thinking</title>,
+        March 2024,
+        https://dtkaplan.github.io/Lessons-in-statistical-thinking/
+    </biblio>
+
+    <biblio type="raw" xml:id="biblio-strang-article-tres">
+        Gilbert Strang,
+        <title>The Fundamental Theorem of Linear Algebra</title>,
+        <journal>The American Mathematical Monthly</journal>
+        November 1993,
+        <volume>100</volume>
+        <number>9</number>,
+        848<ndash />855.
+        <note>
+         <p>Example.</p>
+        </note>
+    </biblio>
+   
+</references>

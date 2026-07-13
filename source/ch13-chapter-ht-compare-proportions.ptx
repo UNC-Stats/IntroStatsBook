@@ -11,6 +11,21 @@
   </introduction>
 
 
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
+
+
+  
   <!-- include sections -->
   <xi:include href="section-ch13-summarize-two-cat.ptx" />
   <xi:include href="section-ch13-ht-randomization-2p.ptx" />

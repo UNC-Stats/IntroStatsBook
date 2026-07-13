@@ -10,6 +10,18 @@
         and on multivariable thinking. This is mainly introduced through a full data exploration of a large data set.</p>
   </introduction>
 
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
   <!-- include sections -->
   <xi:include href="section-ch3-spotify.ptx" />
   <xi:include href="section-ch3-multivar-thinking.ptx" />

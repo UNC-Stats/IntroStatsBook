@@ -7,6 +7,22 @@
     <p> Welcome to your introductory statistics course! Here you will find tips on how to do well in this course. </p>
   </introduction>
 
+
+
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
+
+  
   <!-- include sections -->
   <xi:include href="section-ch1-greetings.ptx" />
   <xi:include href="section-ch1-learning-stats.ptx" />

@@ -4,15 +4,34 @@
   <title>Monte Carlo Simulation</title>
 
   <introduction>
-    <p> This chapter introduces students to the idea of building and simulating models in order to perform
-        simulation-based inference. This chapter will also cover very basic probability ideas and will begin 
-        to teach students how to summarize and describe distributions of quantitative data. There will also be an 
-        introduction to sampling distributions, sampling variability, and standard error.  </p>
+    <p> 
+      This chapter introduces students to the idea of building and simulating models in order to perform
+      simulation-based inference. This chapter will also cover very basic probability ideas and will begin 
+      to teach students how to summarize and describe distributions of quantitative data. There will also be an 
+      introduction to sampling distributions, sampling variability, and standard error.  
+    </p>
   </introduction>
 
+  <objectives>
+    <ol>
+    <li>Explore ideas of randomness, which permeates, and is fundamental to statistics.</li>
+
+    <li>Learn to model random processes and generate outcomes from these models/simulate data from these models.</li>
+
+    <li>Summarize simulation results after generating multiple outcomes from the same model, which helps us to make sense of the process we are modeling.</li>
+
+    <li>Use Monte Carlo simulation to estimate the probability of an event of interest occurring.</li>
+  </ol>
+  </objectives>
+  
   <!-- include sections -->
   <xi:include href="section-ch4-simulation-intro.ptx" />
   <xi:include href="section-ch4-summarize-sim.ptx" />
   <xi:include href="section-ch4-example-sim.ptx" />
 
 </chapter>
+
+
+
+
+

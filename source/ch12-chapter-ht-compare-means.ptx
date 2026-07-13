@@ -12,6 +12,24 @@
     </p>
   </introduction>
 
+
+
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
+
+
+  
+
   <!-- include sections -->
   <xi:include href="section-ch12-summarize-quant-and-cat.ptx" />
   <xi:include href="section-ch12-ht-randomization-2m.ptx" />
