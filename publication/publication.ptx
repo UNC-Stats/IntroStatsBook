@@ -153,8 +153,8 @@
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
      <css 
      theme="default-modern"
-     primary-color="#46327e"
-     secondary-color="#277f8e"
+     primary-color="#443983"
+     secondary-color="#21918c"
     />
 
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search

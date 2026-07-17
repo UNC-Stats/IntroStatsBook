@@ -13,20 +13,144 @@
 
   <!-- Add xml id-->
   <subsection >
-    <title>Title</title>
-    <p> 
-      Text of SubSection.
+    <title>Statistical Discernible/Significance versus Practical Significance</title>
+    <p>
+      Large p-values indicate that the observed data are more compatible with the results from the null model, while small p-values indicate that the observed data are not very compatible with the results from the null model. As researchers, our goal is often to then translate this quantitative evidence into support for/against the hypothesized null model. For example, in the Helper vs Hinderer study, we obtained a p-value of 0.002. This suggests a very low degree of compatibility between the observed data (our empirical evidence) and the null hypothesis. Because our p-value is less than 0.05, we might report the results as being "statistically discernible" or "statistically significant."
     </p>
+
+    <p>
+      Don't be fooled by the word “significant” in the phrase “statistically significant”. It does not mean important. All it means is that the observed summary statistic is more extreme than we would expect to see if the null hypothesis is true. “Practically significant” results, on the other hand, indicate that the difference between the observed proportion and the hypothesized one is meaningful and impactful in a real-world context. Statisticians are moving away from using the phrase “statistically significant,” because too many people get statistical significance confused with practical significance. We will follow this trend and use the phrase "statistically discernible" instead of "statistically significant."
+    </p>
+
+    <definition xml:id="def-">
+      <statement>
+        <p>
+          When the p-value is small, i.e., less than a previously set threshold (e.g. 0.05), we say the results are <term>statistically discernible</term>. This means the data provide such strong evidence against the null hypothesis that we reject it in favor of the alternative hypothesis. 
+        </p>
+        
+        <p>
+          The threshold is called the <term>discernibility level</term> and often represented by the Greek letter alpha (<m>\alpha</m>). The value of <m>\alpha</m>represents how rare an event needs to be in order for the null hypothesis to be rejected. 
+        </p>
+      </statement>
+    </definition>
+
+    <p>
+      Historically, many fields have set <m>\alpha=0.05</m>. But why 0.05? Maybe we should use a bigger number, or maybe a smaller number. If you're a little puzzled, that probably means you're reading with a critical eye - good job!  The value of <m>\alpha</m> can actually vary depending on the field or the application. Sometimes iit is a good idea to deviate from the standard. We will discuss when to choose a threshold different than 0.05 next.
+    </p>
+    
+    <historical>
+      <title>Why <m>\alpha=0.05</m>?</title>
+      <p>
+        Is the p-value small enough to reject the null hypothesis? 
+      </p>
+      
+      <p>
+        Historically,the most common answer to this question has been that we should reject the null hypothesis if the p-value is less than 0.05. This comes from the famous statistician Ronald A. Fisher. In his book <em>Statistical Methods for Research Workers</em> (1925), in regards to the null hypothesis, he wrote: 
+      </p>
+
+      <blockquote>
+        <p>
+          “If p is between 0.10 and 0.90 there is certainly no reason to suspect the hypothesis tested. If it is below 0.02 it is strongly indicated that the hypothesis fails to account for the whole of the facts. We shall not often be astray if we draw a conventional line at 0.05 ... it is convenient to draw the line at about the level at which we can say: Either there is something in the treatment, or a coincidence has occurred such as does not occur more than once in twenty trials” 
+        </p>
+      </blockquote>
+
+      <p>
+        Fisher never intended <m>p \lt 0.05</m> to be a fixed rule, and he says so in a later 1956 publication. Instead, it is likely that <m>p \lt 0.05</m> became a ritual due to the reliance upon probability tables that were used before computing made it easy to compute p values. All tables had an entry for 0.05, making it easy to determine whether one's observed statistic exceeded the value needed to reach that level of significance.
+      </p>
+    </historical>
+    
+    
+
+
+    <p>
+      Because they are so ubiquitous in the research literature for any field, and because they are often misinterpreted (even by PhDs, researchers, and teachers), it is important to be aware of what a p-value tells you, and more importantly, what it does <em>not</em> tell you. To this end, the American Statistical Association released a <url href="https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#d1e167">Statement on p-Values</url> in which they listed six principles:
+    </p>
+
+    <ol>
+      <li>p-values indicate how incompatible data are with a specified statistical model. </li>
+      <li> p-values do <em>not</em> measure the probability that the studied hypothesis is true, nor the probability that the data were produced by random chance alone.</li>
+      <li> Scientific conclusions and business or policy decisions should not be based only on whether a p-value passes a specific threshold.</li>
+      <li> Proper inference requires full reporting and transparency.</li>
+      <li> A p-value does not measure the size of an effect or the importance of a result.</li>
+      <li> By itself, a p-value does not provide a good measure of evidence regarding a model or hypothesis.</li>
+    </ol>
+
+ 
   </subsection>
 
 
 
   <!-- Add xml id-->
   <subsection >
-    <title>Title</title>
+    <title>Decision Errors</title>
     <p> 
-      Text of SubSection.
+      How do you choose the discernibility level? 
     </p>
+
+    <p>
+      Using data to make inferential decisions about larger populations is not a perfect process. A small p-value typically leads the researcher to a decision to reject the null hypothesis. Sometimes, however, data can produce a small p-value when the null hypothesis is actually true and the data are just inherently variable. Here we describe the errors which can arise in hypothesis testing, how to define and quantify the different errors, and suggestions for mitigating errors if possible.
+    </p>
+
+    <p>
+      Hypothesis tests are not flawless. Just think of the court system: innocent people are sometimes wrongly convicted and the guilty sometimes walk free. Similarly, data can point to the wrong conclusion. However, what distinguishes statistical hypothesis tests from a court system is that our framework allows us to quantify and control how often the data lead us to the incorrect conclusion. Recall, in a hypothesis test, there are two competing hypotheses: the null and the alternative. We make a statement about which one might be true, but we might choose incorrectly. There are four possible scenarios in a hypothesis test, which are summarized in <xref ref="decision-errors-tbl"/>.
+    </p>
+
+    <table xml:id="decision-errors-tbl">
+        <title>Four Scenarios for Hypothesis Testing </title>
+        <tabular>
+         <row header="yes" halign="center">
+            <cell></cell>  <cell colspan="2">Test Decision</cell>
+         </row>
+         <row header="yes" bottom="minor">
+            <cell>Truth</cell> <cell>Reject <m>H_0</m></cell> <cell>Do NOT Reject <m>H_0</m></cell> 
+         </row>
+         <row>
+            <cell>Null Hypothesis </cell> <cell>Type I Error</cell> <cell>Good Decision </cell> 
+         </row> 
+         <row>
+            <cell>Alternative Hypothesis </cell> <cell>Good Decision</cell> <cell>Type II Error</cell> 
+         </row>
+       </tabular>
+     </table>
+
+
+
+
+
+
+     <definition>
+       <p>
+         A <term>Type I error</term> is rejecting the null hypothesis when  is actually true.  
+       </p>
+       <p>
+         A <term>Type II error</term> is failing to reject the null hypothesis when the alternative is actually true.
+       </p>
+      </definition>
+
+
+      <p>
+        Since we rejected the null hypothesis in the Helper vs Hinderer study, it is possible that we made a Type I error. Consider the .... study where we concluded ..... What would a Type I error represent in this context?
+      </p>
+      
+      <p>
+        In a US court, the defendant is either innocent or guilty. What does a Type I error represent in this context? What does a Type II error represent? If the court makes a Type I error, this means the defendant is innocent, but wrongly convicted. A Type II error means the court failed to convict the person when they were in fact guilty.
+      </p>
+
+      <p>
+        How could we reduce the Type I error rate in US courts? What influence would this have on the Type II error rate? To lower the Type I error rate, we might raise our standard for conviction from “beyond a reasonable doubt” to “beyond a conceivable doubt” so fewer people would be wrongly convicted. However, this would also make it more difficult to convict the people who are actually guilty, so we would make more Type II errors.
+      </p>
+      
+      <p>
+        How could we reduce the Type II error rate in US courts? What influence would this have on the Type I error rate? To lower the Type II error rate, we want to convict more guilty people. We could lower the standards for conviction from “beyond a reasonable doubt” to “beyond a little doubt”. Lowering the bar for guilt will also result in more wrongful convictions, raising the Type I error rate.
+      </p> 
+      
+      <p>
+        The above provides an important lesson: if we reduce how often we make one type of error, we generally make more of the other type.
+      </p>
+
+      <p>
+        The discernibility level provides the cutoff for the p-value which will lead to a decision of “reject the null hypothesis.” Choosing a discernibility level for a test is important in many contexts, and the traditional level is 0.05. However, it is sometimes helpful to adjust the discernibility level based on the application. We may select a level that is smaller or larger than 0.05 depending on the consequences of any conclusions reached from the test. If making a Type I error is dangerous or especially costly, we should choose a small discernibility level (e.g., 0.01 or even 0.001). If we want to be very cautious about rejecting the null hypothesis, we demand very strong evidence favoring the alternative  before we would reject. If a Type II error is relatively more dangerous or much more costly than a Type I error, then we should choose a higher discernibility level (e.g., 0.10). Here we want to be cautious about failing to reject  when the null is actually false. The discernibility level selected for a test should reflect the real-world consequences associated with making a Type I or Type II error.
+      </p>
   </subsection>
 
 
@@ -34,7 +158,20 @@
   <conclusion>
     <title>Conclusion</title>
     <p>
-      Text of Conclusion
+      How do you know if you've made a decision error? You can't know.....
+    </p>
+      
+    <p>
+      How do you know if your results are practically significant? You will learn more inference methods that will allow you to decide whether results are meaningful and impactful in a real-world context.....
+    </p>
+
+    <p>
+      Two other things that impact practical significance of findings are the ability to make: (1) generalizations, and (2) cause-and-effect inferences. These abilities are not governed by the p-value, but by the design of the study Don't get too excited about small p-values. Ask whether they are substantively meaningful, whether the results generalize, and whether a causal inference can be made. Ron Wassertein, former president of the American Statistical Association reminds us about not getting overly-excited about small p-vlues when he stated:
+      <q>"Small p-values are like a right-swipe in Tinder. It means you have an interest. It doesn't mean you're ready to book the wedding venue."</q>
+    </p>
+
+    <p>
+      Poldrak 9.3.7 can be turned into a series of comprehension check questions.
     </p>
   </conclusion>
 

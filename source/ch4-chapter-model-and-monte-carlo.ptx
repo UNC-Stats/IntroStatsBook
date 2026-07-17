@@ -27,7 +27,7 @@
   <!-- include sections -->
   <xi:include href="section-ch4-simulation-intro.ptx" />
   <xi:include href="section-ch4-summarize-sim.ptx" />
-  <xi:include href="section-ch4-example-sim.ptx" />
+  <xi:include href="section-ch4-sampling-dist.ptx" />
 
 </chapter>
 

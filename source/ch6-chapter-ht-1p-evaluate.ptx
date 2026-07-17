@@ -13,13 +13,14 @@
 
   <objectives>
     <ol>
-    <li>Explore...</li>
+    <li>Numerically measure the strength of evidence against the null hypothesis using standardized statistics (Z-scores) and p-values.</li>
 
-    <li>Learn...</li>
+    <li>Interpret standardized statistics and p-values, demonstrating an understanding of what these measures can and can not tell you. </li>
 
-    <li>Understand...</li>
+    <li>Use Z-scores and p-values to make decisions concerning hypothesis tests.</li>
 
-    <li>Apply...</li>
+    <li>Understand the types of errors that can occur with hypothesis testing, their importance, and how they likelihood is related to the level of significance.</li>
+
   </ol>
   </objectives>
 

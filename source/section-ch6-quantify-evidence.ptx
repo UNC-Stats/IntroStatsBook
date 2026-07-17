@@ -5,28 +5,219 @@
 
   <introduction>
     <p> 
-      Text of Intro. 
+      We are using the Model - Simulate - Evaluate process for evaluating statistical hypotheses. So far, at the Evaluate step, we have been visually inspecting graphs that contain our simulation results to determine whether we have evidence against the null hypothesis. Sometimes this has been easy - like when our actual observed results are obviously unlikely to occur, e.g., .........pick an example........  
+    </p>
+
+    <p> 
+      When the decision is less straightforward, e.g. .........pick an example......., then it would be nice to have a more formal measure of the strength or evidence and some rules or conventions in place to help us make the decision. In this section you will learn exactly that - two numerical measures of the strength of evidence and how they are used to make a decision about the null hypothesis (reject/do not reject).
     </p>
   </introduction>
 
 
 
-  <!-- Add xml id-->
-  <subsection >
-    <title>Title</title>
+
+  <subsection xml:id="subsec-Z-score">
+    <title>Standardized Value of the Statistic</title>
     <p> 
-      Text of SubSection.
+      The null distributions you have seen so far have all had a similar shape - roughly symmetric and bell-shaped. The values in the center, where the distribution is taller, are the values we would most expect to see if the null hypothesis were true. The values on the ends of the distribution (in the "tails") are the values that are much less likely to occur. You have seen that we only reject the null hypothesis if our actual observed (not simulated) results are unlikely to occur when the null hypothesis is true, i.e. in the tails, far from the center. 
     </p>
+      
+    <p>
+      It makes sense then that our first numerical measure of the strength of evidence be a distance measure. We can compute how far our actual observed results are from the center of the null distribution, and we can set a rule for how far the observed statistic needs to be from the center to be considered extremely unlikely when the null is true.
+    </p> 
+
+    <p> 
+      Can you think of any issues this idea might present? 
+    </p>
+
+    <p>
+      Since the null distribution is symmetric, it will be centered at its mean, which we have seen is equal to our hypothesized value of the parameter. How far the observed statistic is from the center (how different it is from the hypothesized parameter value) can therefore be computed as:
+      <em>observed statistic - hypothesized parameter value</em>. 
+      However, this simple distance calculation does not tell us whether the observed statistic is in the tail of the distribution or not. To determine that part, we need to consider how much variability there is in the null distribution, i.e. how much sampling variability there is. In a narrow distribution with less variability, a distance of 5 units may be enormous and indicate that the statistic is far out in the tails. But in a wide distribution with more variability, a distance of 5 units might mean that that statistic is near the center.
+    </p>
+
+    <p>
+      Let's take our distance measure and divide it by the standard deviation of the null distribution. The resulting value is called the standardized value of the statistic. It gets this name because we are using a procedure known as "standardizing." By dividing by the standard deviation, we are removing the units on our measurement and replacing them with a new unit - the number of standard deviations. This gives us a standard unit of measurement on all of our distance calculations so that they are now comparable. 
+    </p>   
+
+    <p>
+      Alternatively, we can call the standardized value of the statistics a "Z-score." Suppose we are testing <m>H_0: \pi=\pi_0</m>, where <m>\pi_0</m> is the hypothesized value of our parameter of interest <m>\pi</m>. Our observed statistic is a proportion, represented by <m>\hat{p}</m>, and it has standard error represented by <m>SE_\hat{p}</m>. Recall that the standard deviation of a statistic is called a standard error. Then we can write the formula for the Z-score as:
+    </p> 
+
+    <me> 
+      Z = \dfrac{\mbox{statistic - hypothesized parameter}}{\mbox{standard error}}
+      =\dfrac{\hat{p}-\pi_0}{SE_\hat{p}}
+    </me>
+
+
+    <definition xml:id="def-z-score">
+      <statement>
+        <p>
+          More generally, a <term>Z-score</term> for an observation is defined as the number of standard deviations it falls above or below the mean.
+        </p> 
+
+        <me>
+          Z=\dfrac{\mbox{observation - mean}}{\mbox{standard deviation}}
+        </me>
+        
+        <p>
+          If the observation is one standard deviation above the mean, its Z score is 1. If it is 1.5 standard deviations below the mean, then its Z score is -1.5. Observations above the mean always have positive Z scores while those below the mean have negative Z scores. If an observation is equal to the mean, then the Z score is 0.
+        </p>
+     </statement>
+   </definition>
+
+
+    <p> 
+      The “Z” in Z-score comes from the fact that the standard normal distribution is often referred to as the Z-distribution. The null distribution can typically be modeled theoretically by a probability distribution known as the normal distribution. Once we standardize, the resulting Z-scores follow a normal distribution with a mean of zero and a standard deviation of 1, which is called the standard normal distribution. Here, we present a useful general rule for the likelihood of falling within 1, 2, and 3 standard deviations of the mean in a normal distribution. 
+    </p>
+
+    <definition xml:id="empirical-rule-def">
+      <statement>
+        <p>
+          The <term>empirical rule</term> (or 68-95-99.7 rule) states that for a normal distribution, almost all of the data will fall within three standard deviations of the mean. Specifically:
+        </p> 
+
+        <ul>
+          <li>68% of the data will fall within one standard deviation of the mean.</li>
+          <li>95% of the data will fall within two standard deviations of the mean.</li>
+          <li>99.7% of the data will fall within three standard deviations of the mean.</li>
+        </ul>
+
+      </statement>
+   </definition>
+
+    <p>
+      We can actually apply the empirical rule to <em>any</em> distribution that is approximately symmetric and bell-shaped. The empirical rule is visualized in <xref ref="Empirical-Rule-graph-Z"/> and <xref ref="Empirical-Rule-graph-null-dist"/>. 
+    </p>
+
+    <figure xml:id="Empirical-Rule-graph-Z" width="50%">
+      <image source="Images/Empirical-Rule-Z.png"  />
+      <caption>Visualizing the Likelihood of Values Occurring in a Distribution based on their Z-score</caption>
+    </figure>
+
+    <figure xml:id="Empirical-Rule-graph-null-dist" width="50%">
+      <image source="Images/Empirical-Rule-pi.png"  />
+      <caption>Visualizing the Likelihood of Values Occurring in a Null Distribution based on their distance from the mean in terms of number of standard errors (i.e., based on their Z-score)</caption>
+    </figure>
+
+    <p>
+     Now you can see where a data point sits with respect to the rest of the distribution based on its Z-score. We can now determine how likely or unlikely an observation is based on its Z-score. We see that only about 2.5% of values fall in the left tail and another 2.5% of values fall in right tail (where observations are more than two standard deviations from the mean or  center). It is possible for an observation to fall 4, 5, or even more standard deviations from the mean. However, these occurrences are very rare! The probability of being further than 4 standard deviations from the mean is about 1-in-30,000. For 5 and 6 standard deviations, it is about 1-in-3.5 million and 1-in-1 billion, respectively.
+    </p>
+
+    <example>
+      <title>Use of Z-Scores Outside of Hypothesis Testing</title>
+      <p>
+        Example from Poldrak ~ compares number of violent crimes between states using Z-scores. I'm not copying it directly in, because I found a more recent data set (2024). I downloaded it from the FBI Crime Data Explorer (https://cde.ucr.cjis.gov/LATEST/webapp/#) 
+      </p>
+      
+    </example>
+
+    <exploration>
+      <title>Helper vs Hinderer</title>
+      <p>
+        Put in this study and the video that goes with it.
+      </p>
+      
+    </exploration>
   </subsection>
 
 
 
-  <!-- Add xml id-->
-  <subsection >
-    <title>Title</title>
+
+  <subsection xml:id="subsec-p-value">
+    <title>The p-Value</title>
     <p> 
-      Text of SubSection.
+      With this next numerical measure of the strength of evidence, we will directly compute the probability of our actual observation occurring (when the null hypothesis is true), rather than estimating it based on the Z-score and the empirical rule. <xref ref="def-p-val"/> describes more precisely the probability that we will compute. 
     </p>
+
+    <definition xml:id="def-p-val">
+      <statement>
+        <p>
+          The <term>p-value (p)</term> is the probability of obtaining a statistic at least as favorable to the alternative hypothesis as our actual, observed sample statistic, if the null hypothesis were true. 
+        </p>
+          
+        <p>
+          The observed summary statistic that is used to compute the p-value is often called the <term>test statistic</term>.
+        </p>
+      </statement>
+    </definition>
+
+    <p>
+      There are (at least) two reasons that we need to add the "at least as favorable" part in the above definition. The first is that when we are talking about continuous values, the probability of any particular value is zero (it's a calculus thing). More importantly, we are trying to determine how weird our result would be if the null hypothesis were true, and any result that is more extreme will be even more weird, so we want to count all of those weirder possibilities when we compute the probability of our result under the null hypothesis.
+    </p>
+      
+    <p>
+      To compute a p-value after performing a simulation analysis, you count the number of simulated summary measures that are at least as extreme as the observed summary statistic, and then you divide this number by the total number of simulations. This value is then reported as a decimal value. 
+    </p>
+
+    <me> 
+      p=\dfrac{\mbox{number of simulated statistics that are at least as extreme as the observed statistic}}{\mbox{total number of simulations}}
+    </me>
+    
+    <p>
+      The alternative hypothesis dictates the direction of the "more extreme" values. For example, if the alternative hypothesis is “less than”, we count the number of summary measures less than or equal to our observed summary statistic. On the other hand, if the alternative hypothesis is “greater than”, we count the number of summary measures greater than or equal to our observed summary statistic. To illustrate this, we will re-examine simulation results from previous examples.
+    </p>
+
+    <p>
+      Recall the coin flip example: You flipped a coin 15 times, and it had produced heads in 11 of those flips, which made you want to test whether the coin was fair.  We set up the following statistical hypotheses, built a null model, performed a simulation analysis, and performed a visual evaluation, ultimately deciding that 11 flips was consistent with what we would expect from a fair coin. So, we were not able to reject the null hypothesis.
+    </p> 
+
+    <md>
+      <mrow> \amp H_0: \pi_{Heads}=0.50</mrow>
+      <mrow> \amp H_0: \pi_{Heads}>0.50 </mrow> 
+    </md>
+
+   <p>
+      The null distribution obtained after 133 simulations is shown in <xref ref="15-flips-video-end-dotplot"/>. We will use this dot plot to demonstrate a  p-value computation. Our observed statistics is 11, and since the alternative hypothesis has a greater than sign in it, we will count the number of simulations that resulted in 11 or more heads being flipped. 
+   </p>
+
+   <figure xml:id="15-flips-video-end-dotplot" width="50%">
+     <image source="Images/15-flips-video-end-dotplot.png"></image>
+     <caption>First 133 Simulation Results from Fair Coin Flip Model (Dot plot shown at the end of the video in <xref ref="coin-flip-Sim-vid"/>)</caption>
+   </figure>
+
+   <p>
+     Looking at the dotplot, we can see that 11 heads occurred 3 times (3 dots above the 11), 12 heads occurred twice (2 dots above the 12), and 13 heads occurred once (one dot above the 13). We did not observe 14 or 15 heads in this set of simulations. Therefore, 11 or more heads occurred in 6 out of 133 simulations, and our p-value is:
+   </p>
+
+    <me> 
+      p=\dfrac{6}{133}=0.045 
+    </me>  
+
+    <p>
+      Note that the p-value we just computed is based on a small number of simulations and was for demonstration purposes only. To obtain an accurate p-value, we need to use a much larger number of simulations. When the p-value is computed using 1,000 simulations, we get <m>p=0.059</m>. We will use this value moving forward. We now know that, if the null hypothesis is true and the coin is fair, there's a 5.9% chance that we would observe 11 or more heads occur during 15 coin flips. This isn't a large chance, but it's large enough (based on the conventions that are normally used to make decisions about hypothesis tests) that we can't rule out the coin being fair.
+    </p>
+
+    <convention>
+      <p>
+        Only reject the null hypothesis if our observed summary statistic is in the most extreme 5% of the null distribution! In other words, reject <m>H_0</m> when <m> p \lt 0.05 </m>.
+      </p>
+    </convention>
+
+    <p>
+      Again, the alternative hypothesis dictates where "extreme" values lie. Another way of thinking about the p-value is that it is actually indicating where in the distribution the observed summary lies. Think about the empirical rule again. Our p-value of 0.059 tells us that the observed statistic is not in the most extreme 5% of the distribution. Furthermore, it is somewhere around 1.6 standard errors from the mean. [We know that the most extreme 5% is at least 1.645 standard errors away.] And now you can more clearly see the connection between the p-value and the Z-score. <xref ref="Z-p-val-5perc-v1"/> further illustrates this relationship. <xref ref="Z-p-val-5perc-v2"/> shows us that using a Z-score cut-off value of 2 corresponds to the most extreme 2.5% of the distribution, if we are focused on just one tail.
+    </p>
+
+
+    <figure xml:id="Z-p-val-5perc-v1" width="50%">
+      <image source="Images/Z-pval-cut-off-relationship-v1.png"  />
+      <caption>Relationship between Z-score and p-Value</caption>
+    </figure>
+
+    <figure xml:id="Z-p-val-5perc-v2" width="50%">
+      <image source="Images/Z-pval-cut-off-relationship-v1.png"  />
+      <caption>Relationship between Z-score and p-Value</caption>
+    </figure>
+  
+   <p>
+      Is there a way to do an "exploration continued?" Compute p-value for Helper vs Hinderer.
+    </p>
+
+    <p>
+      This low probability implies that it is quite unlikely that we would see a result as extreme as 0.875, or more extreme, if the null hypothesis is true. Because of this, we would reject the null hypothesis. In this example, it is pretty evident that we should reject the null hypothesis because 0.002 is quite a low probability. There's only a 0.2% chance that 14 or more infants out of 16 would choose the helper at random (i.e. if the null hypothesis were true). Therefore, 14 choosing helper is a result that is outside the range of likely values. 
+    </p>
+
+    
   </subsection>
 
 
@@ -34,7 +225,11 @@
   <conclusion>
     <title>Conclusion</title>
     <p>
-      Text of Conclusion
+      The evaluation step essentially boils down to asking whether the p-value is less than 0.05 or the Z-score is more than 1.645. If it is, that implies the observed summary is in the outer 5% of the distribution of simulated summaries and is quite unlikely if the null hypothesis is true causing us to reject the null hypothesis. If the p-value is greater than or equal to 0.05 or the Z-score is smaller than 1.645, that implies the observed summary is NOT in the outer 5% of the distribution of simulated summaries and is consistent with a summary expected under the null hypothesis, which causes us to fail to reject the null hypothesis.
+      
+      
+
+
     </p>
   </conclusion>
 
