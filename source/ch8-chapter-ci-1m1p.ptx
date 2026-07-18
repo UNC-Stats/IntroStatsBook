@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch8-chapter-ci-1m1p" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Confidence Intervals</title>
+
+  <introduction>
+    <p> This chapter solidifies the idea of parameter estimation, introducing confidence intervals. The focus is on confidence intervals for one
+       mean and for one proportion. 
+      Students learn how to interpret confidence intervals and pay attention to effect size and practical importance. They also learn the 
+      effect of sample size and confidence level on the width of the confidence interval. There is also a discussion on precision and bias.
+      The chapter ends with students learning how to make a decision about a hypothesis test using a confidence interval and how the two inference methods complement each other.
+    </p>
+  </introduction>
+
+
+
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
+
+  
+
+  <!-- include sections -->
+  <xi:include href="section-ch8-construct-ci-1m1p.ptx" />
+  <xi:include href="section-ch8-interpret-ci.ptx" />
+  <xi:include href="section-ch8-test-by-ci.ptx" />
+
+</chapter>

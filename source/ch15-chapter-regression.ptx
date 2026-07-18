@@ -7,8 +7,8 @@
     <p> This chapter covers the scenario where we have two quantitative variables. 
       Students will learn how to summarize this form of data and build linear models to characterize relationships between 
       variables and make new predictions. They will also learn to assess goodness-of-fit of models and determine whether relationships are 
-      statistically significant. 
-      We also provide a simple introduction to multiple regression and continue the development of multivariable thinking.
+      statistically discernible. 
+      We also provide a simple introduction to multiple regression and emphasize the importance of multivariable thinking.
     </p>
   </introduction>
 
@@ -33,5 +33,6 @@
   <xi:include href="section-ch15-regression-model.ptx" />
   <xi:include href="section-ch15-regression-inference.ptx" />
   <xi:include href="section-ch15-mult-regression-intro.ptx" />
+  
 
 </chapter>

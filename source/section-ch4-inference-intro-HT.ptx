@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-ch4-inference-intro-HT" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Hypothesis Testing</title>
+
+  <introduction>
+    <p> 
+      In <xref ref="ch3-chapter-model-and-monte-carlo"/>, you learned how to carry out Monte Carlo simulations with the "model - simulate - evaluate" process. This is the same kind of process that researchers, scientists, and statisticians engage in when they test hypotheses about the world.  
+    </p>
+    
+    <p>
+      For example, consider evaluating whether the admission rate for public universities is higher than 0.50. Imagine you collected data from 20 public universities and found that the admission rate for those 20 schools was 0.62. Based on this evidence, we could say that the average admission rate for our sample of 20 universities was higher than 0.50. But, is this true when we grow our sample to ALL public universities? Is the mean admission rate for ALL public universities higher than 0.50? 
+    </p>
+
+    <p>
+      Drawing conclusions <em>beyond</em> the data that we have is called inference, and hypothesis testing is one of the statistical inference methods that you will learn.
+    </p>
+
+
+  </introduction>
+
+
+  <subsection xml:id="subsec-intro-stat-inf">
+    <title>Statistical Inference</title>
+    <p> 
+      Define and introduce idea of statistical inference.
+      Review vocab - population, parameter, sample, statistic.
+    </p>
+
+  </subsection>
+
+
+
+  <subsection xml:id="subsec-set-up-hypoth">
+    <title>Setting up Statistical Hypotheses</title>
+    <p> 
+      To illustrate the ideas behind statistical hypothesis testing, imagine you had flipped a coin 15 times and it had produced heads in 11 of those flips. This proportion of .73 (or 73%) heads made you suspicious about whether the coin was fair and you now want to evaluate whether it is fair, or whether it is producing heads too often. To determine whether the coin is fair or not, we will write and evaluate a set of hypotheses about the our coin.
+    </p>
+
+    <definition xml:id="def-hypoth">
+      <statement>
+        <p>
+          <term>Statistical Hypotheses</term> are mathematical statements about population parameters which are often formed based on prior knowledge and theory in the area of content. wWe typically write out two hypotheses about the population parameters: the <term>null hypothesis</term> (<m>H_0</m>), often referred to as a statement of no effect, and the <term>alternative hypothesis</term> (<m>H_A</m>), often termed the research hypothesis.
+        </p>
+      </statement>
+    </definition>
+    
+    <p>
+      For example, here are a set of potential hypotheses about our coin:
+    </p>
+
+    <md>
+      <mrow> \amp H_0: \mbox{The proportion of heads when flipping the coin is equal to } 0.50. </mrow>
+      <mrow> \amp H_A: \mbox{The proportion of heads when flipping the coin is greater than } 0.50 </mrow> 
+    </md>
+
+    <p>
+      There are a few things to notice about these hypotheses:
+    </p>
+
+    <ul>
+      <li> The statements are about the proportion of heads (i.e., about a summary measure).</li>
+      <li> The statements are about the population (all flips of the coin), not the sample.</li>
+      <li>The null hypothesis (<m>H_0:</m>) is a statement of equality (is equal to).</li>
+      <li>The alternative hypothesis (<m>H_A:</m>) often indicates the researcher's belief about the population summary (e.g., we think the coin is producing more heads than tails).</li>
+    </ul>
+	
+    <p>
+      Additionally, statisticians often use the language of mathematics to express these hypotheses. The same hypotheses expressed via the language of mathematics are:
+    </p>
+
+    <md>
+      <mrow> \amp H_0: \pi_{Heads}=0.50</mrow>
+      <mrow> \amp H_0: \pi_{Heads}>0.50 </mrow> 
+    </md>
+
+    <p>
+      The Greek letter pi (<m>\pi </m>) denotes a population proportion or probability. (In symbolic notation for statistical hypotheses, <m>\pi </m> is not the mathematical constant of 3.14.) The subscript of “Heads” indicates that we are considering the proportion of heads in all flips of the coin.
+    </p>
+
+     <p>
+      See the examples below to learn more about setting up statistical hypotheses. Use <xref ref="Param-Symbol-tbl"/> to help you with the mathematical symbols.
+    </p>
+
+    <table xml:id="Param-Symbol-tbl">
+        <title>Mathematical Symbols used to Represent Parameters</title>
+        <tabular halign="center">
+          <row header="yes" bottom="minor">
+            <cell>Parameter</cell> <cell>Symbol</cell> <cell>Read as</cell>
+         </row>
+         <row>
+            <cell>Proportion</cell> <cell><m>\pi</m></cell> <cell>"pi"</cell>
+         </row>
+         <row>
+            <cell>Mean</cell> <cell><m>\mu</m></cell> <cell>"mu"</cell>
+         </row>
+         <row>
+           <cell>Standard Deviation</cell> <cell><m>\sigma</m></cell> <cell>"sigma"</cell>
+         </row>
+         <row>
+           <cell>Correlation</cell> <cell><m>\rho</m></cell> <cell>"rho"</cell>
+         </row>
+       </tabular>
+     </table>
+
+     
+    <note>
+      <title>Representation of Hypotheses</title>
+      <p>
+        You can always write hypotheses descriptively, without resorting to the symbolic notation. If you are comfortable with the mathematical symbols, feel free to use it; the mathematical notation acts as a shorthand to quickly state a hypothesis and define the model used. As you read research articles or take other courses, you will see statistical hypotheses stated in many ways, so it is good to understand that there are many ways to express the same thing.
+
+
+        
+      </p>
+    </note>
+
+  </subsection>
+
+
+
+
+
+
+
+  <conclusion>
+    <title>Conclusion</title>
+    <p>
+      You learned how to set up statistical hypotheses. In the next section you will learn more about the hypothesis testing process.
+    </p>
+  </conclusion>
+
+
+
+  <exercises>
+    <title>Practice Problems</title>
+    
+    <!-- Add labels to exercises-->
+    <exercise >
+      <title>First Problem</title>
+   </exercise>
+
+  </exercises>
+
+</section>

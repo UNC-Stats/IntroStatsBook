@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch5-chapter-ht-1p-evaluate" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Evaluating Hypotheses</title>
+
+  <introduction>
+    <p> This chapter formally covers the evaluate step of the model-simulate-evaluate process used
+        for simulation-based hypothesis testing. Students will learn about p-values and the standardized value of the statistic/Z-score/test statistic. Students will also learn the difference between a one-sided and a two-sided test. The chapter ends with a discussion on significance, discernability, and decision errors.
+      </p>
+  </introduction>
+
+
+  <objectives>
+    <ol>
+    <li>Numerically measure the strength of evidence against the null hypothesis using standardized statistics (Z-scores) and p-values.</li>
+
+    <li>Interpret standardized statistics and p-values, demonstrating an understanding of what these measures can and can not tell you. </li>
+
+    <li>Use Z-scores and p-values to make decisions concerning hypothesis tests.</li>
+  
+    <li>Perform both one-sided and two-sided tests, understanding the differences between them.</li>
+    
+    <li>Understand the types of errors that can occur with hypothesis testing, their importance, and how they likelihood is related to the discernability level.</li>
+
+  </ol>
+  </objectives>
+
+  
+  <!-- include sections -->
+  <xi:include href="section-ch5-quantify-evidence-Z.ptx" />
+  <xi:include href="section-ch5-quantify-evidence-pvalue.ptx" />
+  <xi:include href="section-ch5-1v2-sided-test.ptx" />
+  <xi:include href="section-ch5-decision-errors.ptx" />
+
+
+
+</chapter>

@@ -4,9 +4,7 @@
   <title>Comparing Groups - Categorical Response</title>
   
   <introduction>
-    <p>This chapter begins with a lesson on summarizing data when you have two categorical variables. 
-      Then students will extend what they have learned in the previous chapter to perform randomization tests for comparing two or more
-      population proportions. Students will continue learning about study design and confounding variables. 
+    <p>Here students will extend what they have learned in the previous chapter to perform randomization tests for comparing two or more population proportions.  
     </p>
   </introduction>
 
@@ -27,9 +25,9 @@
 
   
   <!-- include sections -->
-  <xi:include href="section-ch13-summarize-two-cat.ptx" />
   <xi:include href="section-ch13-ht-randomization-2p.ptx" />
   <xi:include href="section-ch13-chi-square.ptx" /> 
+  
 
 
 </chapter>

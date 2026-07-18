@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch17-chapter-more-eda" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exploring Data</title>
+
+  <introduction>
+    <p> This chapter will encourage students to think about sources of variation and help with the development of multivariable thinking. This is mainly accomplished through a full data exploration of a large data set. Students will be introduced to addition methods/visualizations for exploring data.</p>
+  </introduction>
+
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
+  <!-- include sections -->
+  <xi:include href="section-ch17-spotify.ptx" />
+  <xi:include href="section-ch17-multivar-thinking.ptx" />
+  <xi:include href="section-ch17-other-data-viz.ptx" />
+  
+
+</chapter>

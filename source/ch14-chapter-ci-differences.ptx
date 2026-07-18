@@ -26,7 +26,7 @@
   
 
   <!-- include sections -->
-  <xi:include href="section-ch14-ci-review.ptx" />
   <xi:include href="section-ch14-ci-compare-2mean.ptx" />
   <xi:include href="section-ch14-ci-compare-2prop.ptx" />
+  
 </chapter>

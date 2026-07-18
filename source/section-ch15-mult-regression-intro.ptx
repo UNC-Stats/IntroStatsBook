@@ -38,6 +38,14 @@
     </p>
   </conclusion>
 
+  <exercises>
+    <title>Practice Problems</title>
+    
+    <!-- Add labels to exercises-->
+    <exercise >
+      <title>First Problem</title>
+   </exercise>
 
+  </exercises>
 
 </section>

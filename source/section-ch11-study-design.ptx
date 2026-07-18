@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="section-ch16-CLT-two-prop" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Inference for Comparing Proportions </title>
+<section xml:id="section-ch11-study-design" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Study Design and Causal Conclusions</title>
 
   <introduction>
     <p> 
@@ -48,6 +48,7 @@
    </exercise>
 
   </exercises>
+
 
   
 </section>

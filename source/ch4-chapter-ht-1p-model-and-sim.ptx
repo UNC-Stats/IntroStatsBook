@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch4-chapter-ht-1p-model-and-sim" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Statistical Inference</title>
+
+  <introduction>
+    <p>
+      This chapter covers the idea of inference, teaches students how to set up hypotheses (in 
+        general) and perform hypothesis tests for one proportion. Students will learn how to apply the model-simulate-evaluate process (used in simulation studies) to simulation-based hypothesis testing. Evaluating (making a decision) about the hypotheses will remain informal/based on visual inspection in this chapter. There will be discussion on strength of evidence and what can effect it.
+    </p>
+  </introduction>
+
+  <objectives>
+    <ol>
+    
+
+    <li>Interpret data summaries in context.</li>
+
+    <li>Understand the logic and process of statistical hypothesis testing.</li>
+
+    <li>Create testable statistical hypotheses in words and in mathematical symbols.</li>
+
+    <li>Use modeling and simulation to determine what sort of results would be expected under a specific hypothesis. </li>
+
+    <li>Evaluate statistical hypotheses by assessing the strength of the observed evidence, and understand what factors effect the strength. </li>
+  </ol>
+  </objectives>
+
+
+  <!-- include sections -->
+  <xi:include href="section-ch4-inference-intro-HT.ptx" />
+  <xi:include href="section-ch4-null-model-sim-eval.ptx" />
+  <xi:include href="section-ch4-strength-of-evidence.ptx" />
+ 
+
+</chapter>

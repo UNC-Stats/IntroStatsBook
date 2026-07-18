@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="section-ch16-CLT-two-prop" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Inference for Comparing Proportions </title>
+<section xml:id="section-ch4-strength-of-evidence" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Strength of Evidence</title>
 
   <introduction>
     <p> 
@@ -45,9 +45,9 @@
     <!-- Add labels to exercises-->
     <exercise >
       <title>First Problem</title>
-   </exercise>
+    </exercise>
 
   </exercises>
 
-  
+
 </section>
