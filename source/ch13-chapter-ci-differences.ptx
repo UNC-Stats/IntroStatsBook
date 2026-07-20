@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch13-chapter-ci-differences" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Estimating the Difference between Two Parameters</title>
+
+  <introduction>
+    <p> This chapter will teach students to construct confidence intervals for a difference in population means and a difference in population 
+      proportions using bootstrapping. Students learn how to interpret these confidence intervals and make statements about effect size and 
+      practical importance.</p>
+  </introduction>
+
+
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
+
+  
+
+  <!-- include sections -->
+  <xi:include href="section-ch13-ci-compare-2mean.ptx" />
+  <xi:include href="section-ch13-ci-compare-2prop.ptx" />
+  
+</chapter>

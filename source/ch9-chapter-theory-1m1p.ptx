@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch9-chapter-theory-1m1p" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Classical Inference Methods</title>
+
+  <introduction>
+    <p> This chapter introduces the idea of the normal distribution (and later the t-distribution) and how it  can   be used to theoretically model sampling distributions for the purpose of performing inference. This chapter focuses on inference, 
+       hypothesis testing and confidence intervals, for one mean and one proportion.
+        </p>
+  </introduction>
+
+
+
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
+
+
+  
+
+  <!-- include sections -->
+  <xi:include href="section-ch9-theory-intro.ptx" />
+  <xi:include href="section-ch9-CLT-one-prop.ptx" />
+  <xi:include href="section-ch9-CLT-one-mean.ptx" />
+  
+
+</chapter>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch14-chapter-regression" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Correlation and Regression Analysis</title>
+
+  <introduction>
+    <p> This chapter covers the scenario where we have two quantitative variables. 
+      Students will learn how to summarize this form of data and build linear models to characterize relationships between 
+      variables and make new predictions. They will also learn to assess goodness-of-fit of models and determine whether relationships are 
+      statistically discernible. 
+      We also provide a simple introduction to multiple regression and emphasize the importance of multivariable thinking.
+    </p>
+  </introduction>
+
+
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
+
+  
+
+  <!-- include sections -->
+  <xi:include href="section-ch14-regression-model.ptx" />
+  <xi:include href="section-ch14-regression-inference.ptx" />
+  <xi:include href="section-ch14-mult-regression-intro.ptx" />
+  <xi:include href="section-ch14-more-multivar-thinking.ptx" />
+  
+
+</chapter>

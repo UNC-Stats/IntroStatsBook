@@ -25,7 +25,6 @@
   <!-- include sections -->
   <xi:include href="section-ch2-stat-invest-process.ptx" />
   <xi:include href="section-ch2-big-ideas-vocab.ptx" />
-  <xi:include href="section-ch2-RQ.ptx" />
   <xi:include href="section-ch2-interrogate-data.ptx" />
 
 </chapter>

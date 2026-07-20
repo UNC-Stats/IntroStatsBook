@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch12-chapter-ht-compare-proportions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Comparing Groups - Categorical Response</title>
+  
+  <introduction>
+    <p>Here students will extend what they have learned in the previous chapter to perform randomization tests for comparing two or more population proportions.  
+    </p>
+  </introduction>
+
+
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
+
+
+  
+  <!-- include sections -->
+  <xi:include href="section-ch12-ht-randomization-2p.ptx" />
+  <xi:include href="section-ch12-chi-square.ptx" /> 
+  
+
+
+</chapter>

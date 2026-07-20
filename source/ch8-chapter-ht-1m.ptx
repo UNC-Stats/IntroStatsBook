@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch8-chapter-ht-1m" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Hypothesis Testing for Quantitative Data</title>
+
+  <introduction>
+    <p> Students learn how to do a hypothesis test for one mean using bootstrapping as the simulation method. In addition, this chapter introduces new ways to summarize quantitative data. The chapter ends with students learning how to make a decision about a hypothesis test using a confidence interval and how the two inference methods complement each other.
+      
+    </p>
+  </introduction>
+
+
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
+
+  
+
+  <!-- include sections -->
+  <xi:include href="section-ch8-summarize-one-quant.ptx" />
+  <xi:include href="section-ch8-ht-bootstrap-1m.ptx" />
+    <xi:include href="section-ch8-test-by-ci.ptx" />
+
+</chapter>

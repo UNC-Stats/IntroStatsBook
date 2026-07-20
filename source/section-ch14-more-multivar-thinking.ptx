@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="section-ch3-sampling-dist" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Sampling Distributions </title>
+<section xml:id="section-ch14-more-multivar-thinking" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Multivariable Thinking</title>
 
   <introduction>
     <p> 
@@ -39,14 +39,5 @@
   </conclusion>
 
 
-  <exercises>
-    <title>Practice Problems</title>
-    
-    <!-- Add labels to exercises-->
-    <exercise >
-      <title>First Problem</title>
-   </exercise>
-
-  </exercises>
 
 </section>

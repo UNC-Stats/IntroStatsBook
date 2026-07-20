@@ -14,23 +14,20 @@
     <!-- Include chapters -->
     <xi:include href="./ch1-chapter-intro.ptx" />
     <xi:include href="./ch2-chapter-first-full-investigation.ptx" />
-    
     <xi:include href="./ch3-chapter-model-and-monte-carlo.ptx" />
     <xi:include href="./ch4-chapter-ht-1p-model-and-sim.ptx" />
     <xi:include href="./ch5-chapter-ht-1p-evaluate.ptx" />
     <xi:include href="./ch6-chapter-generalize-conclusions.ptx" />
-    <xi:include href="./ch7-chapter-bootstrap.ptx" />
-    <xi:include href="./ch8-chapter-ci-1m1p.ptx" />
-    <xi:include href="./ch9-chapter-ht-1m.ptx" />
-    <xi:include href="./ch10-chapter-theory-1m1p.ptx" />
-    <xi:include href="./ch11-chapter-associations-v-causation.ptx"/>
-    <xi:include href="./ch12-chapter-ht-compare-means.ptx" />
-    <xi:include href="./ch13-chapter-ht-compare-proportions.ptx" />
-    <xi:include href="./ch14-chapter-ci-differences.ptx" />
-    <xi:include href="./ch15-chapter-regression.ptx" />
-    <xi:include href="./ch16-chapter-theory-multivariable.ptx" />
-    <xi:include href="./ch17-chapter-more-eda.ptx" />
-    <xi:include href="./ch18-chapter-probability.ptx" />
+    <xi:include href="./ch7-chapter-CI-bootstrap.ptx" />
+    <xi:include href="./ch8-chapter-ht-1m.ptx" />
+    <xi:include href="./ch9-chapter-theory-1m1p.ptx" />
+    <xi:include href="./ch10-chapter-associations-correlation-causation.ptx"/>
+    <xi:include href="./ch11-chapter-ht-compare-means.ptx" />
+    <xi:include href="./ch12-chapter-ht-compare-proportions.ptx" />
+    <xi:include href="./ch13-chapter-ci-differences.ptx" />
+    <xi:include href="./ch14-chapter-regression.ptx" />
+    <xi:include href="./ch15-chapter-theory-multivariable.ptx" />
+    <xi:include href="./ch16-chapter-probability.ptx" />
 
 
     <!-- Include backmatter -->

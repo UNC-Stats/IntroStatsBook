@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch10-chapter-associations-correlation-causation" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Association versus Causation</title>
+
+  <introduction>
+    <p> This chapter begins with a lesson on summarizing data when you have one categorical and one quantitative variable or when you have two categorical variables. The main focus is on determining whether there is an association between the two variables. 
+      Then students will learn when they can conclude that an association is causal. This is based on the study's design, so students will learn about the two main types oif studies and about confounding variables and how to design your study to avoid them.
+    </p>
+  </introduction>
+
+
+
+  <objectives>
+    <ol>
+    <li>Explore...</li>
+
+    <li>Learn...</li>
+
+    <li>Understand...</li>
+
+    <li>Apply...</li>
+  </ol>
+  </objectives>
+
+
+
+  
+
+  <!-- include sections -->
+  <xi:include href="section-ch10-summarize-2var.ptx" />
+  <xi:include href="section-ch10-linear-assoc.ptx" />
+  <xi:include href="section-ch10-study-design.ptx" />
+ 
+
+
+</chapter>
