@@ -51,24 +51,15 @@ var ptx_lunr_docs = [
   "url": "section-ch2-big-ideas-vocab.html",
   "type": "Section",
   "number": "2.2",
-  "title": "Big Idea and Vocabulary",
-  "body": " Big Idea and Vocabulary   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion   "
-},
-{
-  "id": "section-ch2-RQ",
-  "level": "1",
-  "url": "section-ch2-RQ.html",
-  "type": "Section",
-  "number": "2.3",
-  "title": "Good Research Questions",
-  "body": " Good Research Questions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion   "
+  "title": "Big Ideas and Vocabulary",
+  "body": " Big Ideas and Vocabulary   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion   "
 },
 {
   "id": "section-ch2-interrogate-data",
   "level": "1",
   "url": "section-ch2-interrogate-data.html",
   "type": "Section",
-  "number": "2.4",
+  "number": "2.3",
   "title": "Interrogating Data",
   "body": " Interrogating Data   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion   "
 },
@@ -118,22 +109,22 @@ var ptx_lunr_docs = [
   "body": " First Problem  "
 },
 {
-  "id": "section-ch3-summarize-sim",
+  "id": "section-ch3-summarize-sim-and-sampling-dist",
   "level": "1",
-  "url": "section-ch3-summarize-sim.html",
+  "url": "section-ch3-summarize-sim-and-sampling-dist.html",
   "type": "Section",
   "number": "3.2",
   "title": "Making Sense of Simulation Results",
-  "body": " Making Sense of Simulation Results   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "body": " Making Sense of Simulation Results   Text of Intro.     Title  Text of SubSection.     Title  Standard error Point estimates vary from sample to sample, and we quantify this variability with what is called the standard error (SE). The standard error is equal to the standard deviation associated with the statistic. So, for example, to quantify the variability of a point estimate from one sample to the next, the variability is called the standard error of the point estimate. Almost always, the standard error is itself an estimate, calculated from the sample of data.    Conclusion  Text of Conclusion    Practice Problems   Clickable Areas, Regular Text   Identify (by clicking, or by circling) all of the nouns in this quotation by Eleanor Roosevelt.     The future belongs to those who believe in the beauty of their  dreams .     The incorrect words are pronouns.     "
 },
 {
-  "id": "section-ch3-summarize-sim-6-2",
+  "id": "clickable-text",
   "level": "2",
-  "url": "section-ch3-summarize-sim.html#section-ch3-summarize-sim-6-2",
+  "url": "section-ch3-summarize-sim-and-sampling-dist.html#clickable-text",
   "type": "Exercise",
   "number": "3.2.3.1",
-  "title": "First Problem.",
-  "body": " First Problem  "
+  "title": "Clickable Areas, “Regular” Text.",
+  "body": " Clickable Areas, Regular Text   Identify (by clicking, or by circling) all of the nouns in this quotation by Eleanor Roosevelt.     The future belongs to those who believe in the beauty of their  dreams .     The incorrect words are pronouns.   "
 },
 {
   "id": "section-ch3-sampling-dist",
@@ -141,17 +132,17 @@ var ptx_lunr_docs = [
   "url": "section-ch3-sampling-dist.html",
   "type": "Section",
   "number": "3.3",
-  "title": "Sampling Variability",
-  "body": " Sampling Variability   Text of Intro.     Title  Standard error Point estimates vary from sample to sample, and we quantify this variability with what is called the standard error (SE). The standard error is equal to the standard deviation associated with the statistic. So, for example, to quantify the variability of a point estimate from one sample to the next, the variability is called the standard error of the point estimate. Almost always, the standard error is itself an estimate, calculated from the sample of data.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems   Clickable Areas, Regular Text   Identify (by clicking, or by circling) all of the nouns in this quotation by Eleanor Roosevelt.     The future belongs to those who believe in the beauty of their  dreams .     The incorrect words are pronouns.     "
+  "title": "Sampling Distributions",
+  "body": " Sampling Distributions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "clickable-text",
+  "id": "section-ch3-sampling-dist-6-2",
   "level": "2",
-  "url": "section-ch3-sampling-dist.html#clickable-text",
+  "url": "section-ch3-sampling-dist.html#section-ch3-sampling-dist-6-2",
   "type": "Exercise",
   "number": "3.3.3.1",
-  "title": "Clickable Areas, “Regular” Text.",
-  "body": " Clickable Areas, Regular Text   Identify (by clicking, or by circling) all of the nouns in this quotation by Eleanor Roosevelt.     The future belongs to those who believe in the beauty of their  dreams .     The incorrect words are pronouns.   "
+  "title": "First Problem.",
+  "body": " First Problem  "
 },
 {
   "id": "section-ch4-inference-intro-HT",
@@ -430,7 +421,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.4",
   "title": "Understanding Errors",
-  "body": " Understanding Errors   Text of Intro.     Statistical Discernible\/Significance versus Practical Significance  Large p-values indicate that the observed data are more compatible with the results from the null model, while small p-values indicate that the observed data are not very compatible with the results from the null model. As researchers, our goal is often to then translate this quantitative evidence into support for\/against the hypothesized null model. For example, in the Helper vs Hinderer study, we obtained a p-value of 0.002. This suggests a very low degree of compatibility between the observed data (our empirical evidence) and the null hypothesis. Because our p-value is less than 0.05, we might report the results as being \"statistically discernible\" or \"statistically significant.\"  Don't be fooled by the word “significant” in the phrase “statistically significant”. It does not mean important. All it means is that the observed summary statistic is more extreme than we would expect to see if the null hypothesis is true. “Practically significant” results, on the other hand, indicate that the difference between the observed proportion and the hypothesized one is meaningful and impactful in a real-world context. Statisticians are moving away from using the phrase “statistically significant,” because too many people get statistical significance confused with practical significance. We will follow this trend and use the phrase \"statistically discernible\" instead of \"statistically significant.\"    When the p-value is small, i.e., less than a previously set threshold (e.g. 0.05), we say the results are statistically discernible . This means the data provide such strong evidence against the null hypothesis that we reject it in favor of the alternative hypothesis.  The threshold is called the discernibility level and often represented by the Greek letter alpha ( ). The value of represents how rare an event needs to be in order for the null hypothesis to be rejected.    Historically, many fields have set . But why 0.05? Maybe we should use a bigger number, or maybe a smaller number. If you're a little puzzled, that probably means you're reading with a critical eye - good job! The value of can actually vary depending on the field or the application. Sometimes iit is a good idea to deviate from the standard. We will discuss when to choose a threshold different than 0.05 next.   Why ?  Is the p-value small enough to reject the null hypothesis?  Historically,the most common answer to this question has been that we should reject the null hypothesis if the p-value is less than 0.05. This comes from the famous statistician Ronald A. Fisher. In his book Statistical Methods for Research Workers (1925), in regards to the null hypothesis, he wrote:   “If p is between 0.10 and 0.90 there is certainly no reason to suspect the hypothesis tested. If it is below 0.02 it is strongly indicated that the hypothesis fails to account for the whole of the facts. We shall not often be astray if we draw a conventional line at 0.05 ... it is convenient to draw the line at about the level at which we can say: Either there is something in the treatment, or a coincidence has occurred such as does not occur more than once in twenty trials”   Fisher never intended to be a fixed rule, and he says so in a later 1956 publication. Instead, it is likely that became a ritual due to the reliance upon probability tables that were used before computing made it easy to compute p values. All tables had an entry for 0.05, making it easy to determine whether one's observed statistic exceeded the value needed to reach that level of significance.   Because they are so ubiquitous in the research literature for any field, and because they are often misinterpreted (even by PhDs, researchers, and teachers), it is important to be aware of what a p-value tells you, and more importantly, what it does not tell you. To this end, the American Statistical Association released a Statement on p-Values in which they listed six principles:   p-values indicate how incompatible data are with a specified statistical model.  p-values do not measure the probability that the studied hypothesis is true, nor the probability that the data were produced by random chance alone.  Scientific conclusions and business or policy decisions should not be based only on whether a p-value passes a specific threshold.  Proper inference requires full reporting and transparency.  A p-value does not measure the size of an effect or the importance of a result.  By itself, a p-value does not provide a good measure of evidence regarding a model or hypothesis.      Decision Errors  How do you choose the discernibility level?  Using data to make inferential decisions about larger populations is not a perfect process. A small p-value typically leads the researcher to a decision to reject the null hypothesis. Sometimes, however, data can produce a small p-value when the null hypothesis is actually true and the data are just inherently variable. Here we describe the errors which can arise in hypothesis testing, how to define and quantify the different errors, and suggestions for mitigating errors if possible.  Hypothesis tests are not flawless. Just think of the court system: innocent people are sometimes wrongly convicted and the guilty sometimes walk free. Similarly, data can point to the wrong conclusion. However, what distinguishes statistical hypothesis tests from a court system is that our framework allows us to quantify and control how often the data lead us to the incorrect conclusion. Recall, in a hypothesis test, there are two competing hypotheses: the null and the alternative. We make a statement about which one might be true, but we might choose incorrectly. There are four possible scenarios in a hypothesis test, which are summarized in .   Four Scenarios for Hypothesis Testing     Test Decision    Truth  Reject  Do NOT Reject    Null Hypothesis  Type I Error  Good Decision    Alternative Hypothesis  Good Decision  Type II Error      A Type I error is rejecting the null hypothesis when is actually true.  A Type II error is failing to reject the null hypothesis when the alternative is actually true.   Since we rejected the null hypothesis in the Helper vs Hinderer study, it is possible that we made a Type I error. Consider the .... study where we concluded ..... What would a Type I error represent in this context?  In a US court, the defendant is either innocent or guilty. What does a Type I error represent in this context? What does a Type II error represent? If the court makes a Type I error, this means the defendant is innocent, but wrongly convicted. A Type II error means the court failed to convict the person when they were in fact guilty.  How could we reduce the Type I error rate in US courts? What influence would this have on the Type II error rate? To lower the Type I error rate, we might raise our standard for conviction from “beyond a reasonable doubt” to “beyond a conceivable doubt” so fewer people would be wrongly convicted. However, this would also make it more difficult to convict the people who are actually guilty, so we would make more Type II errors.  How could we reduce the Type II error rate in US courts? What influence would this have on the Type I error rate? To lower the Type II error rate, we want to convict more guilty people. We could lower the standards for conviction from “beyond a reasonable doubt” to “beyond a little doubt”. Lowering the bar for guilt will also result in more wrongful convictions, raising the Type I error rate.  The above provides an important lesson: if we reduce how often we make one type of error, we generally make more of the other type.  The discernibility level provides the cutoff for the p-value which will lead to a decision of “reject the null hypothesis.” Choosing a discernibility level for a test is important in many contexts, and the traditional level is 0.05. However, it is sometimes helpful to adjust the discernibility level based on the application. We may select a level that is smaller or larger than 0.05 depending on the consequences of any conclusions reached from the test. If making a Type I error is dangerous or especially costly, we should choose a small discernibility level (e.g., 0.01 or even 0.001). If we want to be very cautious about rejecting the null hypothesis, we demand very strong evidence favoring the alternative before we would reject. If a Type II error is relatively more dangerous or much more costly than a Type I error, then we should choose a higher discernibility level (e.g., 0.10). Here we want to be cautious about failing to reject when the null is actually false. The discernibility level selected for a test should reflect the real-world consequences associated with making a Type I or Type II error.    Conclusion  How do you know if you've made a decision error? You can't know.....  How do you know if your results are practically significant? You will learn more inference methods that will allow you to decide whether results are meaningful and impactful in a real-world context.....  Two other things that impact practical significance of findings are the ability to make: (1) generalizations, and (2) cause-and-effect inferences. These abilities are not governed by the p-value, but by the design of the study Don't get too excited about small p-values. Ask whether they are substantively meaningful, whether the results generalize, and whether a causal inference can be made. Ron Wassertein, former president of the American Statistical Association reminds us about not getting overly-excited about small p-vlues when he stated: \"Small p-values are like a right-swipe in Tinder. It means you have an interest. It doesn't mean you're ready to book the wedding venue.\"   Poldrak 9.3.7 can be turned into a series of comprehension check questions.    Practice Problems    First Problem    "
+  "body": " Understanding Errors   Text of Intro.     Statistical Discernible\/Significance versus Practical Significance  Large p-values indicate that the observed data are more compatible with the results from the null model, while small p-values indicate that the observed data are not very compatible with the results from the null model. As researchers, our goal is often to then translate this quantitative evidence into support for\/against the hypothesized null model. For example, in the Helper vs Hinderer study, we obtained a p-value of 0.002. This suggests a very low degree of compatibility between the observed data (our empirical evidence) and the null hypothesis. Because our p-value is less than 0.05, we might report the results as being \"statistically discernible\" or \"statistically significant.\"  Don't be fooled by the word “significant” in the phrase “statistically significant”. It does not mean important. All it means is that the observed summary statistic is more extreme than we would expect to see if the null hypothesis is true. “Practically significant” results, on the other hand, indicate that the difference between the observed proportion and the hypothesized one is meaningful and impactful in a real-world context. Statisticians are moving away from using the phrase “statistically significant,” because too many people get statistical significance confused with practical significance. We will follow this trend and use the phrase \"statistically discernible\" instead of \"statistically significant.\"    When the p-value is small, i.e., less than a previously set threshold (e.g. 0.05), we say the results are statistically discernible . This means the data provide such strong evidence against the null hypothesis that we reject it in favor of the alternative hypothesis.  The threshold is called the discernibility level and often represented by the Greek letter alpha ( ). The value of represents how rare an event needs to be in order for the null hypothesis to be rejected.    Historically, many fields have set . But why 0.05? Maybe we should use a bigger number, or maybe a smaller number. If you're a little puzzled, that probably means you're reading with a critical eye - good job! The value of can actually vary depending on the field or the application. Sometimes iit is a good idea to deviate from the standard. We will discuss when to choose a threshold different than 0.05 next.   Why ?  Is the p-value small enough to reject the null hypothesis?  Historically,the most common answer to this question has been that we should reject the null hypothesis if the p-value is less than 0.05. This comes from the famous statistician Ronald A. Fisher. In his book Statistical Methods for Research Workers (1925), in regards to the null hypothesis, he wrote:   “If p is between 0.10 and 0.90 there is certainly no reason to suspect the hypothesis tested. If it is below 0.02 it is strongly indicated that the hypothesis fails to account for the whole of the facts. We shall not often be astray if we draw a conventional line at 0.05 ... it is convenient to draw the line at about the level at which we can say: Either there is something in the treatment, or a coincidence has occurred such as does not occur more than once in twenty trials”   Fisher never intended to be a fixed rule, and he says so in a later 1956 publication. Instead, it is likely that became a ritual due to the reliance upon probability tables that were used before computing made it easy to compute p values. All tables had an entry for 0.05, making it easy to determine whether one's observed statistic exceeded the value needed to reach that level of significance.   Because they are so ubiquitous in the research literature for any field, and because they are often misinterpreted (even by PhDs, researchers, and teachers), it is important to be aware of what a p-value tells you, and more importantly, what it does not tell you. To this end, the American Statistical Association released a Statement on p-Values in which they listed six principles:   p-values indicate how incompatible data are with a specified statistical model.  p-values do not measure the probability that the studied hypothesis is true, nor the probability that the data were produced by random chance alone.  Scientific conclusions and business or policy decisions should not be based only on whether a p-value passes a specific threshold.  Proper inference requires full reporting and transparency.  A p-value does not measure the size of an effect or the importance of a result.  By itself, a p-value does not provide a good measure of evidence regarding a model or hypothesis.      Decision Errors  How do you choose the discernibility level?  Using data to make inferential decisions about larger populations is not a perfect process. A small p-value typically leads the researcher to a decision to reject the null hypothesis. Sometimes, however, data can produce a small p-value when the null hypothesis is actually true and the data are just inherently variable. Here we describe the errors which can arise in hypothesis testing, how to define and quantify the different errors, and suggestions for mitigating errors if possible.  Hypothesis tests are not flawless. Just think of the court system: innocent people are sometimes wrongly convicted and the guilty sometimes walk free. Similarly, data can point to the wrong conclusion. However, what distinguishes statistical hypothesis tests from a court system is that our framework allows us to quantify and control how often the data lead us to the incorrect conclusion. Recall, in a hypothesis test, there are two competing hypotheses: the null and the alternative. We make a statement about which one might be true, but we might choose incorrectly. There are four possible scenarios in a hypothesis test, which are summarized in .   Four Scenarios for Hypothesis Testing     Test Decision    Truth  Reject  Do NOT Reject    Null Hypothesis  Type I Error  Good Decision    Alternative Hypothesis  Good Decision  Type II Error      A Type I error is rejecting the null hypothesis when is actually true.  A Type II error is failing to reject the null hypothesis when the alternative is actually true.   Since we rejected the null hypothesis in the Helper vs Hinderer study, it is possible that we made a Type I error. Consider the .... study where we concluded ..... What would a Type I error represent in this context?  In a US court, the defendant is either innocent or guilty. What does a Type I error represent in this context? What does a Type II error represent? If the court makes a Type I error, this means the defendant is innocent, but wrongly convicted. A Type II error means the court failed to convict the person when they were in fact guilty.  How could we reduce the Type I error rate in US courts? What influence would this have on the Type II error rate? To lower the Type I error rate, we might raise our standard for conviction from “beyond a reasonable doubt” to “beyond a conceivable doubt” so fewer people would be wrongly convicted. However, this would also make it more difficult to convict the people who are actually guilty, so we would make more Type II errors.  How could we reduce the Type II error rate in US courts? What influence would this have on the Type I error rate? To lower the Type II error rate, we want to convict more guilty people. We could lower the standards for conviction from “beyond a reasonable doubt” to “beyond a little doubt”. Lowering the bar for guilt will also result in more wrongful convictions, raising the Type I error rate.  The above provides an important lesson: if we reduce how often we make one type of error, we generally make more of the other type.  The discernibility level provides the cutoff for the p-value which will lead to a decision of “reject the null hypothesis.” Choosing a discernibility level for a test is important in many contexts, and the traditional level is 0.05. However, it is sometimes helpful to adjust the discernibility level based on the application. We may select a level that is smaller or larger than 0.05 depending on the consequences of any conclusions reached from the test. If making a Type I error is dangerous or especially costly, we should choose a small discernibility level (e.g., 0.01 or even 0.001). If we want to be very cautious about rejecting the null hypothesis, we demand very strong evidence favoring the alternative before we would reject. If a Type II error is relatively more dangerous or much more costly than a Type I error, then we should choose a higher discernibility level (e.g., 0.10). Here we want to be cautious about failing to reject when the null is actually false. The discernibility level selected for a test should reflect the real-world consequences associated with making a Type I or Type II error.    Conclusion  How do you know if you've made a decision error? You can't know.....  How do you know if your results are practically significant? You will learn more inference methods that will allow you to decide whether results are meaningful and impactful in a real-world context.....  Two other things that impact practical significance of findings are the ability to make: (1) generalizations, and (2) cause-and-effect inferences. These abilities are not governed by the p-value, but by the design of the study Don't get too excited about small p-values. Ask whether they are substantively meaningful, whether the results generalize, and whether a causal inference can be made. Ron Wassertein, former president of the American Statistical Association reminds us about not getting overly-excited about small p-vlues when he stated: Small p-values are like a right-swipe in Tinder. It means you have an interest. It doesn't mean you're ready to book the wedding venue.   Poldrak 9.3.7 can be turned into a series of comprehension check questions.    Practice Problems    First Problem    "
 },
 {
   "id": "def-",
@@ -505,29 +496,11 @@ var ptx_lunr_docs = [
   "body": " First Problem  "
 },
 {
-  "id": "section-ch7-estimation-intro",
-  "level": "1",
-  "url": "section-ch7-estimation-intro.html",
-  "type": "Section",
-  "number": "7.1",
-  "title": "Parameter Estimation",
-  "body": " Parameter Estimation   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
-},
-{
-  "id": "section-ch7-estimation-intro-6-2",
-  "level": "2",
-  "url": "section-ch7-estimation-intro.html#section-ch7-estimation-intro-6-2",
-  "type": "Exercise",
-  "number": "7.1.3.1",
-  "title": "First Problem.",
-  "body": " First Problem  "
-},
-{
   "id": "section-ch7-bootstrap",
   "level": "1",
   "url": "section-ch7-bootstrap.html",
   "type": "Section",
-  "number": "7.2",
+  "number": "7.1",
   "title": "Bootstrapping to Estimate Standard Error",
   "body": " Bootstrapping to Estimate Standard Error   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
@@ -536,41 +509,77 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-ch7-bootstrap.html#section-ch7-bootstrap-6-2",
   "type": "Exercise",
+  "number": "7.1.3.1",
+  "title": "First Problem.",
+  "body": " First Problem  "
+},
+{
+  "id": "section-ch7-construct-interpret-ci-1m1p",
+  "level": "1",
+  "url": "section-ch7-construct-interpret-ci-1m1p.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "Construction",
+  "body": " Construction   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+},
+{
+  "id": "section-ch7-construct-interpret-ci-1m1p-6-2",
+  "level": "2",
+  "url": "section-ch7-construct-interpret-ci-1m1p.html#section-ch7-construct-interpret-ci-1m1p-6-2",
+  "type": "Exercise",
   "number": "7.2.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch8-construct-ci-1m1p",
+  "id": "section-ch7-deeper-interpret-ci",
   "level": "1",
-  "url": "section-ch8-construct-ci-1m1p.html",
+  "url": "section-ch7-deeper-interpret-ci.html",
   "type": "Section",
-  "number": "8.1",
-  "title": "Construction",
-  "body": " Construction   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "number": "7.3",
+  "title": "Interpretation",
+  "body": " Interpretation   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch8-construct-ci-1m1p-6-2",
+  "id": "section-ch7-deeper-interpret-ci-6-2",
   "level": "2",
-  "url": "section-ch8-construct-ci-1m1p.html#section-ch8-construct-ci-1m1p-6-2",
+  "url": "section-ch7-deeper-interpret-ci.html#section-ch7-deeper-interpret-ci-6-2",
+  "type": "Exercise",
+  "number": "7.3.3.1",
+  "title": "First Problem.",
+  "body": " First Problem  "
+},
+{
+  "id": "section-ch8-summarize-one-quant",
+  "level": "1",
+  "url": "section-ch8-summarize-one-quant.html",
+  "type": "Section",
+  "number": "8.1",
+  "title": "Summarizing one Quantitative Variable",
+  "body": " Summarizing one Quantitative Variable   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+},
+{
+  "id": "section-ch8-summarize-one-quant-6-2",
+  "level": "2",
+  "url": "section-ch8-summarize-one-quant.html#section-ch8-summarize-one-quant-6-2",
   "type": "Exercise",
   "number": "8.1.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch8-interpret-ci",
+  "id": "section-ch8-ht-bootstrap-1m",
   "level": "1",
-  "url": "section-ch8-interpret-ci.html",
+  "url": "section-ch8-ht-bootstrap-1m.html",
   "type": "Section",
   "number": "8.2",
-  "title": "Interpretation",
-  "body": " Interpretation   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Bootstrap Test",
+  "body": " Bootstrap Test   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch8-interpret-ci-6-2",
+  "id": "section-ch8-ht-bootstrap-1m-6-2",
   "level": "2",
-  "url": "section-ch8-interpret-ci.html#section-ch8-interpret-ci-6-2",
+  "url": "section-ch8-ht-bootstrap-1m.html#section-ch8-ht-bootstrap-1m-6-2",
   "type": "Exercise",
   "number": "8.2.3.1",
   "title": "First Problem.",
@@ -595,416 +604,362 @@ var ptx_lunr_docs = [
   "body": " First Problem  "
 },
 {
-  "id": "section-ch9-summarize-one-quant",
+  "id": "section-ch9-theory-intro",
   "level": "1",
-  "url": "section-ch9-summarize-one-quant.html",
+  "url": "section-ch9-theory-intro.html",
   "type": "Section",
   "number": "9.1",
-  "title": "Summarizing one Quantitative Variable",
-  "body": " Summarizing one Quantitative Variable   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Theoretical Modeling with Probability Distributions",
+  "body": " Theoretical Modeling with Probability Distributions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch9-summarize-one-quant-6-2",
+  "id": "section-ch9-theory-intro-6-2",
   "level": "2",
-  "url": "section-ch9-summarize-one-quant.html#section-ch9-summarize-one-quant-6-2",
+  "url": "section-ch9-theory-intro.html#section-ch9-theory-intro-6-2",
   "type": "Exercise",
   "number": "9.1.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch9-ht-bootstrap-1m",
+  "id": "section-ch9-CLT-one-prop",
   "level": "1",
-  "url": "section-ch9-ht-bootstrap-1m.html",
+  "url": "section-ch9-CLT-one-prop.html",
   "type": "Section",
   "number": "9.2",
-  "title": "Bootstrap Test",
-  "body": " Bootstrap Test   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Inference for One Proportion",
+  "body": " Inference for One Proportion   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch9-ht-bootstrap-1m-6-2",
+  "id": "section-ch9-CLT-one-prop-6-2",
   "level": "2",
-  "url": "section-ch9-ht-bootstrap-1m.html#section-ch9-ht-bootstrap-1m-6-2",
+  "url": "section-ch9-CLT-one-prop.html#section-ch9-CLT-one-prop-6-2",
   "type": "Exercise",
   "number": "9.2.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch10-theory-intro",
+  "id": "section-ch9-CLT-one-mean",
   "level": "1",
-  "url": "section-ch10-theory-intro.html",
+  "url": "section-ch9-CLT-one-mean.html",
   "type": "Section",
-  "number": "10.1",
-  "title": "Theoretical Modeling with Probability Distributions",
-  "body": " Theoretical Modeling with Probability Distributions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "number": "9.3",
+  "title": "Inference for One Mean",
+  "body": " Inference for One Mean   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch10-theory-intro-6-2",
+  "id": "section-ch9-CLT-one-mean-6-2",
   "level": "2",
-  "url": "section-ch10-theory-intro.html#section-ch10-theory-intro-6-2",
+  "url": "section-ch9-CLT-one-mean.html#section-ch9-CLT-one-mean-6-2",
+  "type": "Exercise",
+  "number": "9.3.3.1",
+  "title": "First Problem.",
+  "body": " First Problem  "
+},
+{
+  "id": "section-ch10-summarize-2var",
+  "level": "1",
+  "url": "section-ch10-summarize-2var.html",
+  "type": "Section",
+  "number": "10.1",
+  "title": "Summarizing Two Variables",
+  "body": " Summarizing Two Variables   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+},
+{
+  "id": "section-ch10-summarize-2var-6-2",
+  "level": "2",
+  "url": "section-ch10-summarize-2var.html#section-ch10-summarize-2var-6-2",
   "type": "Exercise",
   "number": "10.1.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch10-CLT-one-prop",
+  "id": "section-ch10-linear-assoc",
   "level": "1",
-  "url": "section-ch10-CLT-one-prop.html",
+  "url": "section-ch10-linear-assoc.html",
   "type": "Section",
   "number": "10.2",
-  "title": "Inference for One Proportion",
-  "body": " Inference for One Proportion   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Modeling a Linear Association",
+  "body": " Modeling a Linear Association   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch10-CLT-one-prop-6-2",
+  "id": "section-ch10-linear-assoc-6-2",
   "level": "2",
-  "url": "section-ch10-CLT-one-prop.html#section-ch10-CLT-one-prop-6-2",
+  "url": "section-ch10-linear-assoc.html#section-ch10-linear-assoc-6-2",
   "type": "Exercise",
   "number": "10.2.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch10-CLT-one-mean",
+  "id": "section-ch10-study-design",
   "level": "1",
-  "url": "section-ch10-CLT-one-mean.html",
+  "url": "section-ch10-study-design.html",
   "type": "Section",
   "number": "10.3",
-  "title": "Inference for One Mean",
-  "body": " Inference for One Mean   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Study Design and Causal Conclusions",
+  "body": " Study Design and Causal Conclusions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch10-CLT-one-mean-6-2",
+  "id": "section-ch10-study-design-6-2",
   "level": "2",
-  "url": "section-ch10-CLT-one-mean.html#section-ch10-CLT-one-mean-6-2",
+  "url": "section-ch10-study-design.html#section-ch10-study-design-6-2",
   "type": "Exercise",
   "number": "10.3.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch11-summarize-2var",
+  "id": "section-ch11-ht-randomization-2m",
   "level": "1",
-  "url": "section-ch11-summarize-2var.html",
+  "url": "section-ch11-ht-randomization-2m.html",
   "type": "Section",
   "number": "11.1",
-  "title": "Summarizing Two Variables",
-  "body": " Summarizing Two Variables   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Randomization Test to Compare Two Means",
+  "body": " Randomization Test to Compare Two Means   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch11-summarize-2var-6-2",
+  "id": "section-ch11-ht-randomization-2m-6-2",
   "level": "2",
-  "url": "section-ch11-summarize-2var.html#section-ch11-summarize-2var-6-2",
+  "url": "section-ch11-ht-randomization-2m.html#section-ch11-ht-randomization-2m-6-2",
   "type": "Exercise",
   "number": "11.1.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch11-study-design",
+  "id": "section-ch11-anova",
   "level": "1",
-  "url": "section-ch11-study-design.html",
+  "url": "section-ch11-anova.html",
   "type": "Section",
   "number": "11.2",
-  "title": "Study Design and Causal Conclusions",
-  "body": " Study Design and Causal Conclusions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "ANOVA for Comparing Multiple Means",
+  "body": " ANOVA for Comparing Multiple Means   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch11-study-design-6-2",
+  "id": "section-ch11-anova-6-2",
   "level": "2",
-  "url": "section-ch11-study-design.html#section-ch11-study-design-6-2",
+  "url": "section-ch11-anova.html#section-ch11-anova-6-2",
   "type": "Exercise",
   "number": "11.2.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch12-ht-randomization-2m",
+  "id": "section-ch11-paired-data",
   "level": "1",
-  "url": "section-ch12-ht-randomization-2m.html",
+  "url": "section-ch11-paired-data.html",
   "type": "Section",
-  "number": "12.1",
-  "title": "Randomization Test to Compare Two Means",
-  "body": " Randomization Test to Compare Two Means   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "number": "11.3",
+  "title": "Special Case - Paired Data",
+  "body": " Special Case - Paired Data   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch12-ht-randomization-2m-6-2",
+  "id": "section-ch11-paired-data-6-2",
   "level": "2",
-  "url": "section-ch12-ht-randomization-2m.html#section-ch12-ht-randomization-2m-6-2",
+  "url": "section-ch11-paired-data.html#section-ch11-paired-data-6-2",
+  "type": "Exercise",
+  "number": "11.3.3.1",
+  "title": "First Problem.",
+  "body": " First Problem  "
+},
+{
+  "id": "section-ch12-ht-randomization-2p",
+  "level": "1",
+  "url": "section-ch12-ht-randomization-2p.html",
+  "type": "Section",
+  "number": "12.1",
+  "title": "Randomization Test to Compare Two Proportions",
+  "body": " Randomization Test to Compare Two Proportions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+},
+{
+  "id": "section-ch12-ht-randomization-2p-6-2",
+  "level": "2",
+  "url": "section-ch12-ht-randomization-2p.html#section-ch12-ht-randomization-2p-6-2",
   "type": "Exercise",
   "number": "12.1.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch12-anova",
+  "id": "section-ch12-chi-square",
   "level": "1",
-  "url": "section-ch12-anova.html",
+  "url": "section-ch12-chi-square.html",
   "type": "Section",
   "number": "12.2",
-  "title": "ANOVA for Comparing Multiple Means",
-  "body": " ANOVA for Comparing Multiple Means   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Chi-Square for Comparing Multiple Proportions",
+  "body": " Chi-Square for Comparing Multiple Proportions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch12-anova-6-2",
+  "id": "section-ch12-chi-square-6-2",
   "level": "2",
-  "url": "section-ch12-anova.html#section-ch12-anova-6-2",
+  "url": "section-ch12-chi-square.html#section-ch12-chi-square-6-2",
   "type": "Exercise",
   "number": "12.2.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch12-paired-data",
+  "id": "section-ch13-ci-compare-2mean",
   "level": "1",
-  "url": "section-ch12-paired-data.html",
-  "type": "Section",
-  "number": "12.3",
-  "title": "Special Case - Paired Data",
-  "body": " Special Case - Paired Data   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
-},
-{
-  "id": "section-ch12-paired-data-6-2",
-  "level": "2",
-  "url": "section-ch12-paired-data.html#section-ch12-paired-data-6-2",
-  "type": "Exercise",
-  "number": "12.3.3.1",
-  "title": "First Problem.",
-  "body": " First Problem  "
-},
-{
-  "id": "section-ch13-ht-randomization-2p",
-  "level": "1",
-  "url": "section-ch13-ht-randomization-2p.html",
+  "url": "section-ch13-ci-compare-2mean.html",
   "type": "Section",
   "number": "13.1",
-  "title": "Randomization Test to Compare Two Proportions",
-  "body": " Randomization Test to Compare Two Proportions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Difference between Two Population Means",
+  "body": " Difference between Two Population Means   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch13-ht-randomization-2p-6-2",
+  "id": "section-ch13-ci-compare-2mean-6-2",
   "level": "2",
-  "url": "section-ch13-ht-randomization-2p.html#section-ch13-ht-randomization-2p-6-2",
+  "url": "section-ch13-ci-compare-2mean.html#section-ch13-ci-compare-2mean-6-2",
   "type": "Exercise",
   "number": "13.1.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch13-chi-square",
+  "id": "section-ch13-ci-compare-2prop",
   "level": "1",
-  "url": "section-ch13-chi-square.html",
+  "url": "section-ch13-ci-compare-2prop.html",
   "type": "Section",
   "number": "13.2",
-  "title": "Chi-Square for Comparing Multiple Proportions",
-  "body": " Chi-Square for Comparing Multiple Proportions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Difference between Two Population Proportions",
+  "body": " Difference between Two Population Proportions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch13-chi-square-6-2",
+  "id": "section-ch13-ci-compare-2prop-6-2",
   "level": "2",
-  "url": "section-ch13-chi-square.html#section-ch13-chi-square-6-2",
+  "url": "section-ch13-ci-compare-2prop.html#section-ch13-ci-compare-2prop-6-2",
   "type": "Exercise",
   "number": "13.2.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch14-ci-compare-2mean",
+  "id": "section-ch14-regression-model",
   "level": "1",
-  "url": "section-ch14-ci-compare-2mean.html",
+  "url": "section-ch14-regression-model.html",
   "type": "Section",
   "number": "14.1",
-  "title": "Difference between Two Population Means",
-  "body": " Difference between Two Population Means   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Regression to Model Linear Relationships",
+  "body": " Regression to Model Linear Relationships   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch14-ci-compare-2mean-6-2",
+  "id": "section-ch14-regression-model-6-2",
   "level": "2",
-  "url": "section-ch14-ci-compare-2mean.html#section-ch14-ci-compare-2mean-6-2",
+  "url": "section-ch14-regression-model.html#section-ch14-regression-model-6-2",
   "type": "Exercise",
   "number": "14.1.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch14-ci-compare-2prop",
+  "id": "section-ch14-regression-inference",
   "level": "1",
-  "url": "section-ch14-ci-compare-2prop.html",
+  "url": "section-ch14-regression-inference.html",
   "type": "Section",
   "number": "14.2",
-  "title": "Difference between Two Population Proportions",
-  "body": " Difference between Two Population Proportions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Hypothesis Test and Confidence Interval for Slope",
+  "body": " Hypothesis Test and Confidence Interval for Slope   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch14-ci-compare-2prop-6-2",
+  "id": "section-ch14-regression-inference-6-2",
   "level": "2",
-  "url": "section-ch14-ci-compare-2prop.html#section-ch14-ci-compare-2prop-6-2",
+  "url": "section-ch14-regression-inference.html#section-ch14-regression-inference-6-2",
   "type": "Exercise",
   "number": "14.2.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch15-summarize-two-quant",
+  "id": "section-ch14-mult-regression-intro",
   "level": "1",
-  "url": "section-ch15-summarize-two-quant.html",
+  "url": "section-ch14-mult-regression-intro.html",
   "type": "Section",
-  "number": "15.1",
-  "title": "Summarizing Two Quantitative Variables",
-  "body": " Summarizing Two Quantitative Variables   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "number": "14.3",
+  "title": "Introduction to Multiple Regression",
+  "body": " Introduction to Multiple Regression   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch15-summarize-two-quant-6-2",
+  "id": "section-ch14-mult-regression-intro-6-2",
   "level": "2",
-  "url": "section-ch15-summarize-two-quant.html#section-ch15-summarize-two-quant-6-2",
+  "url": "section-ch14-mult-regression-intro.html#section-ch14-mult-regression-intro-6-2",
+  "type": "Exercise",
+  "number": "14.3.3.1",
+  "title": "First Problem.",
+  "body": " First Problem  "
+},
+{
+  "id": "section-ch14-more-multivar-thinking",
+  "level": "1",
+  "url": "section-ch14-more-multivar-thinking.html",
+  "type": "Section",
+  "number": "14.4",
+  "title": "Multivariable Thinking",
+  "body": " Multivariable Thinking   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion   "
+},
+{
+  "id": "section-ch15-CLT-two-prop",
+  "level": "1",
+  "url": "section-ch15-CLT-two-prop.html",
+  "type": "Section",
+  "number": "15.1",
+  "title": "Inference for Comparing Proportions",
+  "body": " Inference for Comparing Proportions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+},
+{
+  "id": "section-ch15-CLT-two-prop-6-2",
+  "level": "2",
+  "url": "section-ch15-CLT-two-prop.html#section-ch15-CLT-two-prop-6-2",
   "type": "Exercise",
   "number": "15.1.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch15-regression-model",
+  "id": "section-ch15-CLT-two-means",
   "level": "1",
-  "url": "section-ch15-regression-model.html",
+  "url": "section-ch15-CLT-two-means.html",
   "type": "Section",
   "number": "15.2",
-  "title": "Regression to Model Linear Relationships",
-  "body": " Regression to Model Linear Relationships   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Inference for Comparing Means",
+  "body": " Inference for Comparing Means   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch15-regression-model-6-2",
+  "id": "section-ch15-CLT-two-means-6-2",
   "level": "2",
-  "url": "section-ch15-regression-model.html#section-ch15-regression-model-6-2",
+  "url": "section-ch15-CLT-two-means.html#section-ch15-CLT-two-means-6-2",
   "type": "Exercise",
   "number": "15.2.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch15-regression-inference",
+  "id": "section-ch15-CLT-regression-slope",
   "level": "1",
-  "url": "section-ch15-regression-inference.html",
+  "url": "section-ch15-CLT-regression-slope.html",
   "type": "Section",
   "number": "15.3",
-  "title": "Hypothesis Test and Confidence Interval for Slope",
-  "body": " Hypothesis Test and Confidence Interval for Slope   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
+  "title": "Inference for Regression",
+  "body": " Inference for Regression   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
 },
 {
-  "id": "section-ch15-regression-inference-6-2",
+  "id": "section-ch15-CLT-regression-slope-6-2",
   "level": "2",
-  "url": "section-ch15-regression-inference.html#section-ch15-regression-inference-6-2",
+  "url": "section-ch15-CLT-regression-slope.html#section-ch15-CLT-regression-slope-6-2",
   "type": "Exercise",
   "number": "15.3.3.1",
   "title": "First Problem.",
   "body": " First Problem  "
 },
 {
-  "id": "section-ch15-mult-regression-intro",
-  "level": "1",
-  "url": "section-ch15-mult-regression-intro.html",
-  "type": "Section",
-  "number": "15.4",
-  "title": "Introduction to Multiple Regression",
-  "body": " Introduction to Multiple Regression   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
-},
-{
-  "id": "section-ch15-mult-regression-intro-6-2",
-  "level": "2",
-  "url": "section-ch15-mult-regression-intro.html#section-ch15-mult-regression-intro-6-2",
-  "type": "Exercise",
-  "number": "15.4.3.1",
-  "title": "First Problem.",
-  "body": " First Problem  "
-},
-{
-  "id": "section-ch16-CLT-two-prop",
-  "level": "1",
-  "url": "section-ch16-CLT-two-prop.html",
-  "type": "Section",
-  "number": "16.1",
-  "title": "Inference for Comparing Proportions",
-  "body": " Inference for Comparing Proportions   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
-},
-{
-  "id": "section-ch16-CLT-two-prop-6-2",
-  "level": "2",
-  "url": "section-ch16-CLT-two-prop.html#section-ch16-CLT-two-prop-6-2",
-  "type": "Exercise",
-  "number": "16.1.3.1",
-  "title": "First Problem.",
-  "body": " First Problem  "
-},
-{
-  "id": "section-ch16-CLT-two-means",
-  "level": "1",
-  "url": "section-ch16-CLT-two-means.html",
-  "type": "Section",
-  "number": "16.2",
-  "title": "Inference for Comparing Means",
-  "body": " Inference for Comparing Means   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
-},
-{
-  "id": "section-ch16-CLT-two-means-6-2",
-  "level": "2",
-  "url": "section-ch16-CLT-two-means.html#section-ch16-CLT-two-means-6-2",
-  "type": "Exercise",
-  "number": "16.2.3.1",
-  "title": "First Problem.",
-  "body": " First Problem  "
-},
-{
-  "id": "section-ch16-CLT-regression-slope",
-  "level": "1",
-  "url": "section-ch16-CLT-regression-slope.html",
-  "type": "Section",
-  "number": "16.3",
-  "title": "Inference for Regression",
-  "body": " Inference for Regression   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion    Practice Problems    First Problem    "
-},
-{
-  "id": "section-ch16-CLT-regression-slope-6-2",
-  "level": "2",
-  "url": "section-ch16-CLT-regression-slope.html#section-ch16-CLT-regression-slope-6-2",
-  "type": "Exercise",
-  "number": "16.3.3.1",
-  "title": "First Problem.",
-  "body": " First Problem  "
-},
-{
-  "id": "section-ch17-spotify",
-  "level": "1",
-  "url": "section-ch17-spotify.html",
-  "type": "Section",
-  "number": "17.1",
-  "title": "Large Spotify Data Set",
-  "body": " Large Spotify Data Set   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion   "
-},
-{
-  "id": "section-ch17-multivar-thinking",
-  "level": "1",
-  "url": "section-ch17-multivar-thinking.html",
-  "type": "Section",
-  "number": "17.2",
-  "title": "Multivariable Thinking",
-  "body": " Multivariable Thinking   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion   "
-},
-{
-  "id": "section-ch17-other-data-viz",
-  "level": "1",
-  "url": "section-ch17-other-data-viz.html",
-  "type": "Section",
-  "number": "17.3",
-  "title": "More Data Visualization Options",
-  "body": " More Data Visualization Options   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion   "
-},
-{
   "id": "section-ch18-name",
   "level": "1",
   "url": "section-ch18-name.html",
   "type": "Section",
-  "number": "18.1",
+  "number": "16.1",
   "title": "Section Title",
   "body": " Section Title   Text of Intro.     Title  Text of SubSection.     Title  Text of SubSection.    Conclusion  Text of Conclusion   "
 },
