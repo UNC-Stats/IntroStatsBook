@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="section-ch14-regression-model" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Regression to Model Linear Relationships</title>
+  <title>Simple Linear Regression</title>
 
   <introduction>
     <p> 

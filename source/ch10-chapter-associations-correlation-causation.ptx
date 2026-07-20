@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch10-chapter-associations-correlation-causation" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Association versus Causation</title>
+  <title>Association, Correlation, and Causation</title>
 
   <introduction>
     <p> This chapter begins with a lesson on summarizing data when you have one categorical and one quantitative variable or when you have two categorical variables. The main focus is on determining whether there is an association between the two variables. 
